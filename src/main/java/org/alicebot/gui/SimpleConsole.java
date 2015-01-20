@@ -212,7 +212,7 @@ public class SimpleConsole extends JPanel {
         shell = new Shell(inStream, displayStream, promptStream);
         server = new AliceServer(s, shell);
         Trace.setOut(displayStream);
-        server.startup();
+        server.startup(true);
         shutdown();
     }
 

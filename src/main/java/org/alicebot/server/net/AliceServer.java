@@ -17,7 +17,7 @@ public class AliceServer {
     private Shell shell;
     private String propertiesPath;
 
-    private AliceServer(String s) {
+    public AliceServer(String s) {
         propertiesPath = s;
     }
 
@@ -26,22 +26,22 @@ public class AliceServer {
         shell = shell1;
     }
 
-    private static void startHttpServer(String s, String s1) {
-        Class class1;
+    private static void startHttpServer(String httpServerClassName, String s1) {
+        Class httpServerClass;
         try {
-            class1 = Class.forName(s);
+            httpServerClass = Class.forName(httpServerClassName);
         } catch (ClassNotFoundException classnotfoundexception) {
-            throw new UserError("Could not find http server \"" + s + "\".");
+            throw new UserError("Could not find http server \"" + httpServerClassName + "\".");
         }
         AliceCompatibleHttpServer alicecompatiblehttpserver;
         try {
-            alicecompatiblehttpserver = (AliceCompatibleHttpServer) class1.newInstance();
+            alicecompatiblehttpserver = (AliceCompatibleHttpServer) httpServerClass.newInstance();
         } catch (InstantiationException instantiationexception) {
-            throw new UserError("Couldn't instantiate http server \"" + s + "\".");
+            throw new UserError("Couldn't instantiate http server \"" + httpServerClassName + "\".");
         } catch (IllegalAccessException illegalaccessexception) {
-            throw new DeveloperError("The constructor for \"" + s + "\" or the class itself is not available.");
+            throw new DeveloperError("The constructor for \"" + httpServerClassName + "\" or the class itself is not available.");
         } catch (ClassCastException classcastexception) {
-            throw new DeveloperError("\"" + s + "\" is not an implementation of AliceCompatibleHttpServer.");
+            throw new DeveloperError("\"" + httpServerClassName + "\" is not an implementation of AliceCompatibleHttpServer.");
         }
         if (s1 != null)
             try {
@@ -50,6 +50,13 @@ public class AliceServer {
                 throw new UserError("Could not find \"" + s1 + "\".");
             }
         BotProcesses.start(alicecompatiblehttpserver, "http server");
+    }
+
+    public static void shutdown() {
+        Trace.userinfo("AliceServer is shutting down.");
+        BotProcesses.shutdownAll();
+        Graphmaster.shutdown();
+        Trace.userinfo("Shutdown complete.");
     }
 
     public static void main(String args[]) {
@@ -67,40 +74,38 @@ public class AliceServer {
             }
 
         });
-        aliceserver.startup();
+        aliceserver.startup(true);
     }
 
-    public static void shutdown() {
-        Trace.userinfo("AliceServer is shutting down.");
-        BotProcesses.shutdownAll();
-        Graphmaster.shutdown();
-        Trace.userinfo("Shutdown complete.");
-    }
-
-    public void startup() {
+    public void startup(boolean startEmbeddedServer) {
         if (propertiesPath == null)
             throw new DeveloperError("Did not specify a server properties path.");
         if (!Globals.isLoaded()) {
             Globals.load(propertiesPath);
             shell = new Shell();
         }
-        String s = Globals.getProperty("programd.httpserver.classname");
-        String s1 = Globals.getProperty("programd.httpserver.config");
-        if (s == null)
-            throw new UserError("You must specify an http server to run AliceServer. Failing.");
         try {
+            String s = Globals.getProperty("programd.httpserver.classname");
+            String s1 = Globals.getProperty("programd.httpserver.config");
+            if (s == null) {
+                throw new UserError("You must specify an http server to run AliceServer. Failing.");
+            }
+
             if (Globals.showConsole()) {
                 Log.userinfo("Starting Charliebot version " + Globals.getVersion(), Log.STARTUP);
                 Log.userinfo("Using Java VM " + System.getProperty("java.vm.version") + " from " + System.getProperty("java.vendor"), Log.STARTUP);
                 Log.userinfo("On " + System.getProperty("os.name") + " version " + System.getProperty("os.version") + " (" + System.getProperty("os.arch") + ")", Log.STARTUP);
                 Log.userinfo("Predicates with no values defined will return: \"" + Globals.getPredicateEmptyDefault() + "\".", Log.STARTUP);
             }
-            startHttpServer(s, s1);
+            if (startEmbeddedServer) {
+                startHttpServer(s, s1);
+            }
+
             if (Globals.showConsole())
                 Log.userinfo("Initializing Multiplexor.", Log.STARTUP);
             ActiveMultiplexor.getInstance().initialize();
             String s2;
-             s2 = "http://" + Globals.getHostName() + ":" + Globals.getHttpPort();
+            s2 = "http://" + Globals.getHostName() + ":" + Globals.getHttpPort();
             long l = (new Date()).getTime();
             if (Globals.showConsole())
                 Log.userinfo("Loading Graphmaster.", Log.STARTUP);
@@ -129,7 +134,9 @@ public class AliceServer {
                 Heart.start();
                 Trace.userinfo("Heart started.");
             }
-            if (Globals.useShell()) {
+            if(!startEmbeddedServer) {
+                // No shell needed to run
+            } else if (Globals.useShell() ) {
                 shell.run();
                 Trace.devinfo("Shell exited.");
             } else {

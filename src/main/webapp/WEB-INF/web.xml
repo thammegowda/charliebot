@@ -19,7 +19,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>charlie</servlet-name>
-        <url-pattern>/charlie/*</url-pattern>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
 </web-app>

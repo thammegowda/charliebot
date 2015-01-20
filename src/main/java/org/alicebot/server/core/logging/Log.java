@@ -6,6 +6,8 @@ package org.alicebot.server.core.logging;
 
 import org.alicebot.server.core.Globals;
 import org.alicebot.server.core.util.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -26,12 +28,14 @@ public class Log {
     public static final String TARGETING = Globals.getProperty("programd.logging.targeting.path", "./logs/targeting.log");
     public static final String RUNTIME = Globals.getProperty("programd.logging.runtime.path", "./logs/runtime.log");
     private static final String LOGFILE = "log file";
+    private static final Logger GENERAL_LOG = LoggerFactory.getLogger(Log.class);
 
     public Log() {
     }
 
     public static void log(String s, String s1) {
         Toolkit.checkOrCreate(s1, "log file");
+        GENERAL_LOG.info(s);
         FileWriter filewriter;
         try {
             filewriter = new FileWriter(s1, true);
@@ -48,6 +52,7 @@ public class Log {
 
     public static void log(Throwable throwable, String s) {
         Toolkit.checkOrCreate(s, "log file");
+        GENERAL_LOG.error(throwable.getMessage(), throwable);
         FileWriter filewriter;
         try {
             filewriter = new FileWriter(s, true);
