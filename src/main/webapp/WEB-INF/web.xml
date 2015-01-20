@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+        metadata-complete="false"
+        version="3.1">
+
+    <listener>
+        <listener-class>org.alicebot.server.net.servlet.StartupListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>charlie</servlet-name>
+        <servlet-class>org.alicebot.server.net.servlet.Alice</servlet-class>
+        <!--<listener-class>org.alicebot.server.net.servlet.StartupListener</listener-class>-->
+        <load-on-startup>1</load-on-startup>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>charlie</servlet-name>
+        <url-pattern>/charlie/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
