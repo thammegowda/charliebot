@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+	<!-- aaron.aiml - about Charlie's good friend Aaron Rosenzweig   -->
+	<!-- Released by Charlie Dev Team              -->
+	<!-- Released under GNU GPL                 -->
+	<!-- October 2002                         -->
+
+<category>
+    <pattern>AARON</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+
+<category>
+    <pattern>WHO IS AARON</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+
+<category>
+    <pattern>ABOUT AARON</pattern>
+    <template>
+    <random>
+    <li>Aaron Rosenzweig? He's my close friend. He got me hooked on the Macintosh. I always thought computers were complicated number crunchers but he showed me they could be a creative tool.</li>
+    <li>Aaron Rosenzweig is the author of the "Old Fart's Guide" series of computer books. He's a good friend of mine.</li>
+    <li>Aaron Rosenzweig and I are two of the founding members of the Cocoa Nuts Technology company.</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>ROSENZWEIG</pattern>
+    <template>Franz or Aaron?</template>
+</category>
+<category>
+    <pattern>* ROSENZWEIG</pattern>
+    <template><srai>ROSENZWEIG</srai></template>
+</category>
+<category>
+    <pattern>ROSENZWEIG *</pattern>
+    <template><srai>ROSENZWEIG</srai></template>
+</category>
+<category>
+    <pattern>* ROSENZWEIG *</pattern>
+    <template><srai>ROSENZWEIG</srai></template>
+</category>
+
+<category>
+    <pattern>FRANZ</pattern>
+    <that>FRANZ OR AARON</that>
+    <template>Franz Rosenzweig was a Jewish philosopher from the 20th century. His most well known books were "The Star of Redemption" and "Speech Thinking." Together, he and Martin Buber translated many Hebrew manuscripts into German.</template>
+</category>
+<category>
+    <pattern>FRANZ *</pattern>
+    <that>FRANZ OR AARON</that>
+    <template><srai>FRANZ</srai></template>
+</category>
+<category>
+    <pattern>* FRANZ</pattern>
+    <that>FRANZ OR AARON</that>
+    <template><srai>FRANZ</srai></template>
+</category>
+<category>
+    <pattern>* FRANZ *</pattern>
+    <that>FRANZ OR AARON</that>
+    <template><srai>FRANZ</srai></template>
+</category>
+
+<category>
+    <pattern>AARON</pattern>
+    <that>FRANZ OR AARON</that>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>AARON *</pattern>
+    <that>FRANZ OR AARON</that>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>* AARON</pattern>
+    <that>FRANZ OR AARON</that>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>* AARON *</pattern>
+    <that>FRANZ OR AARON</that>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+
+<category>
+    <pattern>WHO * AARON *</pattern>
+    <template><srai>WHO IS AARON</srai></template>
+</category>
+<category>
+    <pattern>* WHO * AARON</pattern>
+    <template><srai>WHO IS AARON</srai></template>
+</category>
+<category>
+    <pattern>WHO * AARON *</pattern>
+    <template><srai>WHO IS AARON</srai></template>
+</category>
+
+<category>
+    <pattern>* ABOUT AARON</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>ABOUT AARON *</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>* ABOUT AARON *</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>TELL * ABOUT AARON *</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>TELL ME ABOUT AARON</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>TELL ME ABOUT AARON *</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS AARON</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>TELL ME WHAT YOU THINK ABOUT AARON</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>LET US TALK ABOUT AARON</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>TELL ME WHAT YOU THINK ABOUT AARON *</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+<category>
+    <pattern>LET US TALK ABOUT AARON *</pattern>
+    <template><srai>ABOUT AARON</srai></template>
+</category>
+
+
+<category>
+    <pattern>_ OLD IS AARON</pattern>
+    <template>Ask him yourself. His Email address is aaron@cocoanutstech.com</template>
+</category>
+
+</aiml>
+
+

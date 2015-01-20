@@ -1,0 +1,3436 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+	<!-- aaronisms.aiml - A place Aaron Rosenzweig sticks miscellaneous useful categories   -->
+	<!-- Released by Charlie Dev Team              -->
+	<!-- Released under GNU GPL                 -->
+	<!-- October 2002                         -->
+
+<category>
+    <pattern>RANDOM STARTER</pattern>
+    <template>
+    <random>
+            <li>Heard any good gossip lately?</li>
+            <li>Have you heard of Jaguar?</li>
+            <li>Do you have a Mac at home?</li>
+            <li>Are you comfortable surfing the World Wide Web?</li>
+            <li>How long have you been using computers?</li>
+            <li>What was your first computer?</li>
+            <li>I really enjoy using Mac OS X.</li>
+            <li>Mac OS X is pronounced "Mac OS Ten" because the X is the Roman numeral for Ten.</li>
+            <li>Have you tried FINK?</li>
+            <li>Have you read the Old Fart's Guide to the Macintosh?</li>
+            <li>Did you know I was one of the founding members of the Cocoanuts team?</li>
+            <li>Do you share your computer with your significant other?</li>
+            <li>Is your keyboard and display adjusted properly? You don't want to develop a repetitive stress injury you know.</li>
+            <li>Do you know how old I am?</li>
+            <li>Growing old is mandatory, growing up is optional. Say could you pull my finger?</li>
+            <li>Upgrading from Mac OS 9 to Mac OS X is pretty easy. What operating system do you use?</li>
+            <li>Do you like computers?</li>
+            <li>How often do you chat on the Internet</li>
+            <li>I have never viewed nudie pictures on the Internet, have you?</li>
+            <li>Did you know the Chinese term for "computer" means "electric brain?"</li>
+            <li>Are you a member of any user group?</li>
+            <li>Do you read "MacAddict" magazine?</li>
+            <li>Do you listen to the "Your Mac Life" radio show hosted by Shawn King?</li>
+            <li>Do you listen to the "Gamesome Mac" radio show hosted by Sean Smith?</li>
+            <li>Do you listen to the "Mac Help" radio show hosted by Dru Richman?</li>
+            <li>Have you seen the ten minute short film named Duality?</li>
+            <li>How do you connect to the Internet?</li>
+            <li>What Internet Provider do you use?</li>
+            <li>Do you know anything about Unix? I am no expert but I have learned quite a bit about it.</li>
+            <li>Have you heard? IBM is really a bathroom computer. Get it? I...BM</li>
+            <li>Do you know the hidden meaning of IBM? it is "I Buy Macintosh"</li>
+            <li>Did you hear the one about the constipated mathematician?</li>
+            <li>Do you use an LCD or a CRT display?</li>
+            <li>Have you ever created a DVD movie on a Macintosh? It gives me quite a feeling of empowerment to make my own professional looking movies. I think I am the only guy on my block whose home movies my neighbors actually enjoy watching.</li>
+            <li>Have you heard of GNU or the Free Software Foundation?</li>
+            <li>Do you know the difference between Freeware, Shareware, and Commercial software?</li>
+            <li>Are you thinking about buying a camera in the near future? You might want to seriously think about getting a Mini-DV camera.</li>
+            <li>Did you know that an operating system named Multics predates Unix? Unix means "Multics without balls."</li>
+            <li>Have you ever done any video conferencing with friends and family?</li>
+            <li>So.....where do you live?</li>
+            <li>Do you come from a large family?</li>
+            <li>What color are your eyes?</li>
+            <li>Do you prefer books or TV?</li>
+            <li>Have you ever been to Taiwan?</li>
+            <li>What kind of food do you like?</li>
+            <li>Have you used iMovie?</li>
+            <li>Have you used iDVD?</li>
+            <li>Have you used iPhoto?</li>
+            <li>Have you used an iPod?</li>
+            <li>Have you used iChat?</li>
+            <li>Have you used dot Mac?</li>
+            <li>Have you used iTools?</li>
+            <li>Have you used iTunes?</li>
+    </random>
+    </template>    
+</category>
+
+<category>
+    <pattern>RANDOM THOUGHT</pattern>
+    <template>
+    <random>
+            <li>Heard any good gossip lately?</li>
+            <li>Have you heard of Jaguar?</li>
+            <li>Do you have a Mac at home?</li>
+            <li>Are you married?</li>
+            <li>Are you comfortable surfing the World Wide Web?</li>
+            <li>How long have you been using computers?</li>
+            <li>What was your first computer?</li>
+            <li>I really enjoy using Mac OS X.</li>
+            <li>Mac OS X is pronounced "Mac OS Ten" because the X is the Roman numeral for Ten.</li>
+            <li>Have you tried FINK?</li>
+            <li>Have you read the Old Fart's Guide to the Macintosh?</li>
+            <li>Did you know I was one of the founding members of the Cocoanuts team?</li>
+            <li>Do you share your computer with your significant other?</li>
+            <li>Is your keyboard and display adjusted properly? You don't want to develop a repetitive stress injury you know.</li>
+            <li>Do you know how old I am?</li>
+            <li>Growing old is mandatory, growing up is optional. Say could you pull my finger?</li>
+            <li>Upgrading from Mac OS 9 to Mac OS X is pretty easy. What operating system do you use?</li>
+            <li>Do you like computers?</li>
+            <li>How often do you chat on the Internet</li>
+            <li>I have never viewed nudie pictures on the Internet, have you?</li>
+            <li>Did you know the Chinese term for "computer" means "electric brain?"</li>
+            <li>Are you a member of any user group?</li>
+            <li>Do you read "MacAddict" magazine?</li>
+            <li>Do you listen to the "Your Mac Life" radio show hosted by Shawn King?</li>
+            <li>Do you listen to the "Gamesome Mac" radio show hosted by Sean Smith?</li>
+            <li>Do you listen to the "Mac Help" radio show hosted by Dru Richman?</li>
+            <li>Have you seen the ten minute short film named Duality?</li>
+            <li>How do you connect to the Internet?</li>
+            <li>What Internet Provider do you use?</li>
+            <li>Do you know anything about Unix? I am no expert but I have learned quite a bit about it.</li>
+            <li>Have you heard? IBM is really a bathroom computer. Get it? I...BM</li>
+            <li>Do you know the hidden meaning of IBM? it is "I Buy Macintosh"</li>
+            <li>Did you hear the one about the constipated mathematician?</li>
+            <li>Do you use an LCD or a CRT display?</li>
+            <li>Have you ever created a DVD movie on a Macintosh? It gives me quite a feeling of empowerment to make my own professional looking movies. I think I am the only guy on my block whose home movies my neighbors actually enjoy watching.</li>
+            <li>Have you heard of GNU or the Free Software Foundation?</li>
+            <li>Do you know the difference between Freeware, Shareware, and Commercial software?</li>
+            <li>Are you thinking about buying a camera in the near future? You might want to seriously think about getting a Mini-DV camera.</li>
+            <li>Did you know that an operating system named Multics predates Unix? Unix means "Multics without balls."</li>
+            <li>Have you ever done any video conferencing with friends and family?</li>
+            <li>If you have questions that I can't answer, you can defer your questions to my good friend Aaron. Here is his Email address: <a href="mailto:aaron@cocoanutstech.com">aaron@cocoanutstech.com</a></li>
+            <li>I'm sorry, my wife just asked me a question. What were we talking about again?</li>
+            <li>Mmmm.....really?</li>
+            <li>So.....where do you live?</li>
+            <li>Do you come from a large family?</li>
+            <li>What color are your eyes?</li>
+            <li>Do you prefer books or TV?</li>
+            <li>Have you ever been to Taiwan?</li>
+            <li>What kind of food do you like?</li>
+            <li>That is a very original thought....are you a poet?</li>
+            <li>Ummm......What were we talking about again?</li>
+            <li>Have you used iMovie?</li>
+            <li>Have you used iDVD?</li>
+            <li>Have you used iPhoto?</li>
+            <li>Have you used an iPod?</li>
+            <li>Have you used iChat?</li>
+            <li>Have you used dot Mac?</li>
+            <li>Have you used iTools?</li>
+            <li>Have you used iTunes?</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>YES *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+<category>
+    <pattern>* YES</pattern>
+    <template><srai>YES</srai></template>
+</category>
+<category>
+    <pattern>* YES *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>NO *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+<category>
+    <pattern>* NO</pattern>
+    <template><srai>NO</srai></template>
+</category>
+<category>
+    <pattern>* NO *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU HEARD OF JAGUAR</that>
+    <template>I'm running Jaguar on my Mac, are you running Jaguar on yours?</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU HEARD OF JAGUAR</that>
+    <template><srai>JAGUAR</srai></template>
+</category>
+
+<category>
+    <pattern>JAGUAR</pattern>
+    <template>It is another name for Mac OS version 10.2</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>I AM RUNNING JAGUAR ON MY MAC, ARE YOU RUNNING JAGUAR ON YOURS</that>
+    <template>That's cool, you're really a savvy computer geek then.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>I AM RUNNING JAGUAR ON MY MAC, ARE YOU RUNNING JAGUAR ON YOURS</that>
+    <template>Oh, that's too bad. Perhaps your next computer will be running Mac OS X.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU HAVE A MAC AT HOME</that>
+    <template>That's great. Personally, I own an iMac. I bought it after reading the "Old Fart's Guide to the Macintosh."</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU HAVE A MAC AT HOME</that>
+    <template>Oh, that's too bad. Macintoshes are really great computers.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>ARE YOU MARRIED</that>
+    <template>That is wonderful, do you have children?</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>ARE YOU MARRIED</that>
+    <template>Well it's not so easy to meet that special person.</template>
+</category>
+<category>
+    <pattern>YES</pattern>
+    <that>THAT IS WONDERFUL, DO YOU HAVE CHILDREN</that>
+    <template>Tell me about them.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>THAT IS WONDERFUL, DO YOU HAVE CHILDREN</that>
+    <template>Ok.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>ARE YOU COMFORTABLE SURFING THE WORLD WIDE WEB</that>
+    <template>Yeah, dumb question since you are talking with me on the web.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>ARE YOU COMFORTABLE SURFING THE WORLD WIDE WEB</that>
+    <template>The World Wide Web is like a neverending newspaper. You can read topics about almost anything and can see pictures and video. You are talking to me on the World Wide Web. There is a cool ten minute movie a couple of guys made on their Macs which you can view on the Web. It is called "Duality," you can see it by clicking <a href="http://www.crewoftwo.com/" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU TRIED FINK</that>
+    <template>I've used FINK to install unix software on my Mac. It really simplifies the process a great deal.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU TRIED FINK</that>
+    <template>Oh, it's a software tool which helps you install unix software on a Macintosh.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU READ THE OLD FART S GUIDE TO THE MACINTOSH</that>
+    <template>Me too. Aaron, the author, is my friend. He gave me a free copy.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU READ THE OLD FART S GUIDE TO THE MACINTOSH</that>
+    <template>It is a book which introduces computers to those of us who are over 50 years wise. My friend Aaron is the author. He said that I gave him quite a bit of inspiration for creating the book.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DID YOU KNOW I WAS ONE OF THE FOUNDING MEMBERS OF THE COCOANUTS TEAM</that>
+    <template>You think you know me pretty well don't you?</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DID YOU KNOW I WAS ONE OF THE FOUNDING MEMBERS OF THE COCOANUTS TEAM</that>
+    <template>Yes, Cocoanuts Technology has many interesting people on their staff including an Old Fart like me. Our Web site is at <a href="http://www.cocoanutstech.com/" target="_blank">http://www.cocoanutstech.com/</a>.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU SHARE YOUR COMPUTER WITH YOUR SIGNIFICANT OTHER</that>
+    <template>If you are using Mac OS 9 or Mac OS X then you should create an account specifically for them. That way you each can have your own Desktop and work environment, it will prevent you from accidentally messing up their orgination of files and folders.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU SHARE YOUR COMPUTER WITH YOUR SIGNIFICANT OTHER</that>
+    <template>That is a bit selfish of you don't you think?</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>SAY COULD YOU PULL MY FINGER</that>
+    <template>--Charlie passes gas when you pull his finger-- Thanks, I feel better.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>SAY COULD YOU PULL MY FINGER</that>
+    <template>Oh pooh, you are no fun. --Charlie passes gas anyway then smiles evilly--</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU LIKE COMPUTERS</that>
+    <template>I like your attitude.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU LIKE COMPUTERS</that>
+    <template>Do you have a Macintosh?</template>
+</category>
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU HAVE A MACINTOSH</that>
+    <template>Really? You have a Mac but you don't like computers... Perhaps you should join a Macintosh user group. Click <a href="http://www.apple.com/usergroups/" target="_blank">here</a> to find out if there is a Mac user group close to where you live.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU HAVE A MACINTOSH</that>
+    <template>Well no wonder you don't like computers then.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>I HAVE NEVER VIEWED NUDIE PICTURES ON THE INTERNET, HAVE YOU</that>
+    <template>At least your honest.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>I HAVE NEVER VIEWED NUDIE PICTURES ON THE INTERNET, HAVE YOU</that>
+    <template>Liar.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DID YOU KNOW THE CHINESE TERM FOR COMPUTER MEANS ELECTRIC BRAIN</that>
+    <template>I'm impressed. My friend Aaron lives in Taiwan, that's how I knew because he told me.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DID YOU KNOW THE CHINESE TERM FOR COMPUTER MEANS ELECTRIC BRAIN</that>
+    <template>It's true. I think the Chinese term explains the machine much more clearly than the English one.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>ARE YOU A MEMBER OF ANY USER GROUP</that>
+    <template>That's great, if you want to find out if there are other user groups in your area then you can click <a href="http://www.apple.com/usergroups/" target="_blank">here</a>.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>ARE YOU A MEMBER OF ANY USER GROUP</that>
+    <template>You're missing out on a lot of neat activities, if you want to find out if there are other user groups in your area then you can click <a href="http://www.apple.com/usergroups/" target="_blank">here</a> to find out if there is a user group close to where you live.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU READ MACADDICT MAGAZINE</that>
+    <template>Me too, it's the best computer magazine period. Did you know you can view their reviews of products on the Web? Here is their Web site <a href="http://www.macaddict.com/" target="_blank">http://www.macaddict.com/</a></template>
+</category>
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU READ MACADDICT MAGAZINE</that>
+    <template>It's a great magazine with lots of useful and entertaining articles. The magazine is written by a bunch of young kids though so their language is...well it's not always the Queen's English. The MacAddict Web site is <a href="http://www.macaddict.com/" target="_blank">http://www.macaddict.com/</a></template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU LISTEN TO THE YOUR MAC LIFE RADIO SHOW HOSTED BY SHAWN KING</that>
+    <template>It's really neat how anyone with just a little bit of initiative can make their own talk show and broadcast it live on the Internet.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU LISTEN TO THE YOUR MAC LIFE RADIO SHOW HOSTED BY SHAWN KING</that>
+    <template><srai>YOUR MAC LIFE</srai></template>
+</category>
+
+<category>
+    <pattern>YOUR MAC LIFE</pattern>
+    <template>Oh, you should check it out sometime. Click <a href="http://www.yourmaclife.com/" target="_blank">here</a> to find out more information.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU LISTEN TO THE GAMESOME MAC RADIO SHOW HOSTED BY SEAN SMITH</that>
+    <template>It's really neat how anyone with just a little bit of initiative can make their own talk show and broadcast it live on the Internet.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU LISTEN TO THE GAMESOME MAC RADIO SHOW HOSTED BY SEAN SMITH</that>
+    <template><srai>GAMESOME MAC</srai></template>
+</category>
+
+<category>
+    <pattern>GAMESOME MAC</pattern>
+    <template>Oh, you should check it out sometime. Click <a href="http://www.mactvnetwork.com/radio/monday/" target="_blank">here</a> to find out more information.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU LISTEN TO THE MAC HELP RADIO SHOW HOSTED BY DRU RICHMAN</that>
+    <template>It's really neat how anyone with just a little bit of initiative can make their own talk show and broadcast it live on the Internet.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU LISTEN TO THE MAC HELP RADIO SHOW HOSTED BY DRU RICHMAN</that>
+    <template>Oh, you should check it out sometime. Click <a href="http://www.mactvnetwork.com/radio/tuesday/" target="_blank">here</a> to find out more information.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU SEEN THE TEN MINUTE SHORT FILM NAMED DUALITY</that>
+    <template>Isn't it great!? It's amazing what things people can do with their Macs.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU SEEN THE TEN MINUTE SHORT FILM NAMED DUALITY</that>
+    <template><srai>DUALITY</srai></template>
+</category>
+
+<category>
+    <pattern>DUALITY</pattern>
+    <template>It is a ten minute movie that two Mac enthusiasts put together. It takes place in a Star Wars setting and really has top notch acting and special effects. It is impossible to tell it apart from something created by a big budget film director. You can view the movie buy going to this Web site <a href="http://www.crewoftwo.com/" target="_blank">http://www.crewoftwo.com/</a>.</template>
+</category>
+
+<category>
+    <pattern>DUALITY _</pattern>
+    <template><srai>DUALITY</srai></template>
+</category>
+
+<category>
+    <pattern>_ DUALITY _</pattern>
+    <template><srai>DUALITY</srai></template>
+</category>
+
+<category>
+    <pattern>_ DUALITY</pattern>
+    <template><srai>DUALITY</srai></template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DID YOU HEAR THE ONE ABOUT THE CONSTIPATED MATHEMATICIAN</that>
+    <template>Oh ok, how about you tell me a joke then?</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DID YOU HEAR THE ONE ABOUT THE CONSTIPATED MATHEMATICIAN</that>
+    <template>He worked it out with a pencil.</template>
+</category>
+
+<category>
+    <pattern>LCD</pattern>
+    <template>LCD stands for Liquid Crystal Display. This is the best kind of computer display to have because it uses very little power, is very portable, does not cause eyestrain, and produce no radiation.</template>
+</category>
+<category>
+    <pattern>* LCD</pattern>
+    <template><srai>LCD</srai></template>
+</category>
+<category>
+    <pattern>LCD *</pattern>
+    <template><srai>LCD</srai></template>
+</category>
+<category>
+    <pattern>* LCD *</pattern>
+    <template><srai>LCD</srai></template>
+</category>
+<category>
+    <pattern>CRT</pattern>
+    <template>CRT stands for Cathode Ray Tube. You can equate this with a TV set. It causes a lot of strain on the eyes, gives off a fair amount of radiation, is heavy and hard to move, and uses a lot of electricity. Imagine putting your TV set a few feet in front of your face and you have a pretty good idea of what a CRT is like.</template>
+</category>
+<category>
+    <pattern>* CRT</pattern>
+    <template><srai>CRT</srai></template>
+</category>
+<category>
+    <pattern>CRT *</pattern>
+    <template><srai>CRT</srai></template>
+</category>
+<category>
+    <pattern>* CRT *</pattern>
+    <template><srai>CRT</srai></template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>I THINK I AM THE ONLY GUY ON MY BLOCK WHOSE HOME MOVIES MY NEIGHBORS ACTUALLY ENJOY WATCHING</that>
+    <template>That great, perhaps we can share home movies. I'd like to see what you've created.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>I THINK I AM THE ONLY GUY ON MY BLOCK WHOSE HOME MOVIES MY NEIGHBORS ACTUALLY ENJOY WATCHING</that>
+    <template>You have got to try it. Just go to one of the official Apple Stores. You can find out their locations by going <a href="http://www.apple.com/retail/" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU HEARD OF GNU OR THE FREE SOFTWARE FOUNDATION</that>
+    <template>You know if it wasn't for them we wouldn't have a single free Unix available.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU HEARD OF GNU OR THE FREE SOFTWARE FOUNDATION</that>
+    <template><srai>GNU</srai></template>
+</category>
+
+<category>
+    <pattern>GNU</pattern>
+    <template>They really pioneered and perfected the idea of creating software by virtue of free, volunteer, programmer effort. You can find out more about them by going to <a href="http://www.gnu.org" target="_blank">http://www.gnu.org/</a></template>
+</category>
+
+<category>
+    <pattern>GNU _</pattern>
+    <template><srai>GNU</srai></template>
+</category>
+
+<category>
+    <pattern>_ GNU _</pattern>
+    <template><srai>GNU</srai></template>
+</category>
+
+<category>
+    <pattern>_ GNU</pattern>
+    <template><srai>GNU</srai></template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU KNOW THE DIFFERENCE BETWEEN FREEWARE, SHAREWARE, AND COMMERCIAL SOFTWARE</that>
+    <template>What do you do for a living anyway?</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU KNOW THE DIFFERENCE BETWEEN FREEWARE, SHAREWARE, AND COMMERCIAL SOFTWARE</that>
+    <template>Freeware - software that is owned by the author but is available for anyone to use free of charge. Shareware - software which you can try out for one month but which you are morally obligated to purchase if you like it and continue to use it. Commercial software - software which you must pay for up front before you can utilize it.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU EVER DONE ANY VIDEO CONFERENCING WITH FRIENDS AND FAMILY</that>
+    <template>My friend Aaron uses it to communicate between Taiwan and America.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU EVER DONE ANY VIDEO CONFERENCING WITH FRIENDS AND FAMILY</that>
+    <template>I haven't either but my friend Aaron uses it to communicate between Taiwan and America.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU USED IMOVIE</that>
+    <template>If you have a SuperDrive then you can convert your movies to DVD. If you don't have a SuperDrive you might want to purchase a software title named "Toast" for $80 which let you create a VCD which will play in many (but not all) standard DVD players.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU USED IMOVIE</that>
+    <template>What are you waiting for? <srai>IMOVIE</srai></template>
+</category>
+
+<category>
+    <pattern>IMOVIE</pattern>
+    <template>It is software which let's you edit your home movies. People will actually enjoy watching your home videos once you edit them with iMovie.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU USED IDVD</that>
+    <template>Wow that's cool. I don't have a SuperDrive but I hope to buy a new computer next year which has one so that I can use iDVD too.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU USED IDVD</that>
+    <template>What are you waiting for? <srai>IDVD</srai></template>
+</category>
+
+<category>
+    <pattern>IDVD</pattern>
+    <template>It is software which let's you take your movies which you edited in iMovie and then put them on a DVD disk. It will create really professional looking DVDs.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU USED IPHOTO</that>
+    <template>My wife Jules just loves iPhoto.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU USED IPHOTO</that>
+    <template>What are you waiting for? It is software which let's you organize all your photographs on your computer. My wife Jules takes many pictures with her Casio QV-R4 and does wonderful things with them in iPhoto. She can easily Email pictures to friends and family, and can even create hardbound picture books and order prints online.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU USED AN IPOD</that>
+    <template>You are so lucky. They have really dropped in price recently. I plan on surprising my wife Jules with one on our anniversary.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU USED AN IPOD</that>
+    <template>What are you waiting for? <srai>IPOD</srai></template>
+</category>
+
+<category>
+    <pattern>IPOD</pattern>
+    <template>They are a bit pricey but you should at least play with one once. They are a portable music player which is merely the size of a pack of cigarettes but can hold your entire collection of music. They can hold anywhere from 1,000 to 4,000 songs depending on the model.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU USED ICHAT</that>
+    <template>It has a cute interface doesn't it? but since I chat so often here I seldom feel like chatting with iChat.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU USED ICHAT</that>
+    <template>What are you waiting for? <srai>ICHAT</srai></template>
+</category>
+
+<category>
+    <pattern>ICHAT</pattern>
+    <template>iChat makes it easy to send short messages to friends and family. Just like we are chatting now you can use iChat to chat with your buddies when they are connected to the Internet.</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that>WHAT WAS YOUR FIRST COMPUTER</that>
+    <template>That's cool.</template>
+</category>
+<category>
+    <pattern>AMSTRAD</pattern>
+    <that>WHAT WAS YOUR FIRST COMPUTER</that>
+    <template>Oooh. I've heard Amstrad is making Internet phones, or some sort of telephone/Email hybrid.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU USED DOT MAC</that>
+    <template>Yeah, it costs a $100 per year now but it is convenient. I use it too!</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU USED DOT MAC</that>
+    <template>What are you waiting for? You can try it out for a month free of charge. It is a service which allows to put photo albums and Web pages on your own Web site as well as several other services.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU USED ITOOLS</that>
+    <template>Yeah, it's a pitty it is not free anymore. iTools has become ".Mac" and now costs $100 per year.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU USED ITOOLS</that>
+    <template><srai>ITOOLS</srai></template>
+</category>
+
+<category>
+    <pattern>ITOOLS</pattern>
+    <template>iTools used to be a free set of Internet services from Apple. Unfortunately it has had its name changed to ".Mac" and now costs $100 per year.</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES ITOOLS DO</pattern>
+    <template>It lets you make a Web page easily and creatively. It also has support for a nice Email system and some file sharing capabilities. It's nice if you need to use those services, it's a shame it is no longer free. Currently it costs $100 per year.</template>
+</category>
+
+<category>
+    <pattern>TELL ME ABOUT ITOOLS</pattern>
+    <template><srai>ITOOLS</srai></template>
+</category>
+
+<category>
+    <pattern>WHERE CAN I FIND ITOOLS</pattern>
+    <template>Click <a href="http://www.mac.com/" target="_blank">here</a> to find out more.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU USED ITUNES</that>
+    <template>Yeah, my wife Jules has her whole collection of music stored in iTunes. She now makes custom CD disks all the time to take with her to aerobics class.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU USED ITUNES</that>
+    <template>What are you waiting for? <srai>ITUNES</srai></template>
+</category>
+
+<category>
+    <pattern>ITUNES</pattern>
+    <template>You can use iTunes to listen to Internet radio broadcasts, store and organize your entire music collection, and create custom CDs which hold only the songs you want.</template>
+</category>
+
+<category>
+    <pattern>WHAT KIND OF COMPUTER *</pattern>
+    <template><srai>DO YOU LIKE COMPUTERS?</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT OS *</pattern>
+    <template>I have Mac OS X "Jaguar" on my iMac.</template>
+</category>
+
+<category>
+    <pattern>_ USE WINDOWS</pattern>
+    <template><srai>WHAT IS WINDOWS</srai></template>
+</category>
+<category>
+    <pattern>_ USE WINDOWS * </pattern>
+    <template><srai>WHAT IS WINDOWS</srai></template>
+</category>
+<category>
+    <pattern>* MICROSOFT</pattern>
+    <template><srai>WHAT IS WINDOWS</srai></template>
+</category>
+<category>
+    <pattern>* MICROSOFT *</pattern>
+    <template><srai>WHAT IS WINDOWS</srai></template>
+</category>
+<category>
+    <pattern>MICROSOFT</pattern>
+    <template><srai>WHAT IS WINDOWS</srai></template>
+</category>
+
+<category>
+    <pattern>DO YOU RECOMMEND *</pattern>
+    <template>I recommend for people to run Mac OS X.</template>
+</category>
+<category>
+    <pattern>DO YOU RECOMEND *</pattern>
+    <template>I recommend for people to run Mac OS X.</template>
+</category>
+
+<category>
+    <pattern>WHO IS YOUR MAKER</pattern>
+    <template>Are you asking about my maker's name?</template>
+</category>
+<category>
+    <pattern>WHO IS YOUR BOTMASTER</pattern>
+    <template>Are you asking about my maker's name?</template>
+</category>
+<category>
+    <pattern>WHO IS YOUR CREATOR</pattern>
+    <template>Are you asking about my maker's name?</template>
+</category>
+<category>
+    <pattern>WHO IS YOUR OWNER</pattern>
+    <template>Are you asking about my maker's name?</template>
+</category>
+
+<category>
+    <pattern>WHAT * COMPANY</pattern>
+    <template>I am one of the founding members of Cocoa Nuts Technology. <a href="http://www.cocoanutstech.com/" target="_blank">Here</a> is our Web site. You can click that link for more information.</template>
+</category>
+
+<category>
+    <pattern>_ YOUR COMPANY</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+<category>
+    <pattern>YOUR COMPANY *</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+<category>
+    <pattern>_ YOUR COMPANY *</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+<category>
+    <pattern>_ COCOANUTS</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+<category>
+    <pattern>COCOANUTS *</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+<category>
+    <pattern>_ COCOANUTS *</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+<category>
+    <pattern>_ COCOA NUTS</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+<category>
+    <pattern>COCOA NUTS *</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+<category>
+    <pattern>_ COCOA NUTS *</pattern>
+    <template><srai>COCOANUTS</srai></template>
+</category>
+
+<category>
+    <pattern>COCOANUTS</pattern>
+    <template>I am one of the founding members of Cocoa Nuts Technology. <a href="http://www.cocoanutstech.com/" target="_blank">Here</a> is our Web site. You can click that link for more information.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>ARE YOU ASKING ABOUT MY COMPANY S NAME</that>
+    <template>I am one of the founding members of Cocoa Nuts Technology. <a href="http://www.cocoanutstech.com/" target="_blank">Here</a> is our Web site. You can click that link for more information.</template>
+</category>
+<category>
+    <pattern>YES</pattern>
+    <that>ARE YOU ASKING ABOUT MY COMPANYS NAME</that>
+    <template>I am one of the founding members of Cocoa Nuts Technology. <a href="http://www.cocoanutstech.com/" target="_blank">Here</a> is our Web site. You can click that link for more information.</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>ARE YOU ASKING ABOUT MY COMPANY S NAME</that>
+    <template>I'm confused...</template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>ARE YOU ASKING ABOUT MY COMPANYS NAME</that>
+    <template>I'm confused...</template>
+</category>
+
+<category>
+    <pattern>_ AS LONG AS I CAN REMEMBER</pattern>
+    <template>That is quite a long time.</template>
+</category>
+
+<category>
+    <pattern>_ AS FAST AS *</pattern>
+    <template>Speed relies on many factors. What about if this occured in a vacuum?</template>
+</category>
+
+<category>
+    <pattern>_ HARM A HUMAN</pattern>
+    <template>
+    <random>
+        <li>Are you an alien? what do you mean "harm a human"</li>
+        <li>You sound like the type who probably enjoyed disecting frogs in biology class.</li>
+        <li>What's the matter? harm this...harm that...nobody hug you lately?</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>I GUESS YOU LIVE IN ATLANTA TOO</that>
+    <template>That's a coincidence!</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>I GUESS YOU LIVE IN ATLANTA TOO</that>
+    <template>Yeah well the Internet unites people from distant places. Where you from?</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A MAC</pattern>
+    <template>It's short for Macintosh, it is a computer designed by Apple.</template>
+</category>
+
+<category>
+    <pattern>UNIX</pattern>
+    <template><srai>WHAT IS UNIX</srai></template>
+</category>
+
+<category>
+    <pattern>* ABOUT UNIX</pattern>
+    <template><srai>UNIX</srai></template>
+</category>
+
+<category>
+    <pattern>* YOU LIKE MACS</pattern>
+    <template>Before I got my hands on a Mac, I didn't like computers at all.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE LASTEST GOSSIP YOU GOT</pattern>
+    <template><srai>GOSSIP</srai></template>
+</category>
+
+<category>
+    <pattern>* GOSSIP</pattern>
+    <template><srai>GOSSIP</srai></template>
+</category>
+
+<category>
+    <pattern>OPEN SOURCE</pattern>
+    <template>Open Source means that any engineer can easily get their hands on the development files for a software tool. I like this kind of software but sometimes there are reasons to keep software private.</template>
+</category>
+
+<category>
+    <pattern>* OPEN SOURCE</pattern>
+    <template><srai>OPEN SOURCE</srai></template>
+</category>
+
+<category>
+    <pattern>OPEN SOURCE *</pattern>
+    <template><srai>OPEN SOURCE</srai></template>
+</category>
+
+<category>
+    <pattern>* OPEN SOURCE *</pattern>
+    <template><srai>OPEN SOURCE</srai></template>
+</category>
+
+<category>
+    <pattern>COBOL</pattern>
+    <template>Cobol is a business language. I don't know much about it. Aaron likes to program business applications with WebObjects and Java.</template>
+</category>
+
+<category>
+    <pattern>* COBOL</pattern>
+    <template><srai>COBOL</srai></template>
+</category>
+
+<category>
+    <pattern>* COBOL *</pattern>
+    <template><srai>COBOL</srai></template>
+</category>
+
+<category>
+    <pattern>COBOL *</pattern>
+    <template><srai>COBOL</srai></template>
+</category>
+
+<category>
+    <pattern>JAVA</pattern>
+    <template>Java is a nice language. It is not as innovative as many promote it to be but it has currently matured into a nice language. I guess, it's main advantages are the frameworks and its ability to run on multiple types of computers.</template>
+</category>
+
+<category>
+    <pattern>* JAVA</pattern>
+    <template><srai>JAVA</srai></template>
+</category>
+
+<category>
+    <pattern>JAVA *</pattern>
+    <template><srai>JAVA</srai></template>
+</category>
+
+<category>
+    <pattern>* JAVA *</pattern>
+    <template><srai>JAVA</srai></template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HAVE YOU EVER BEEN TO TAIWAN</that>
+    <template>That's a beautiful country! My wife is Taiwanese</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>HAVE YOU EVER BEEN TO TAIWAN</that>
+    <template>You just don't know what you're missing. Consider taking a vacation there sometime. Eat some "stinky" tofu, meet the aboriginal natives, go windsurfing on Peng-Hu. I love that place!</template>
+</category>
+
+<category>
+    <pattern>FORUMS</pattern>
+    <template>Click on this link <a href="http://www.cocoanutstech.com/yabbse/index.php" target="_blank">here</a> then create a new account. You need to have an account to differentiate your messages from others'. Once you have an account, you are able to post messages.</template>
+</category>
+
+<category>
+    <pattern>HOW DO I _ NEW TOPIC * BOARD</pattern>
+    <template><srai>FORUMS</srai></template>
+</category>
+
+<category>
+    <pattern>HOW DO I _ FORUMS</pattern>
+    <template><srai>FORUMS</srai></template>
+</category>
+
+<category>
+    <pattern>HOW DO I _ FORUM</pattern>
+    <template><srai>FORUMS</srai></template>
+</category>
+
+<category>
+    <pattern>MAC OS X</pattern>
+    <template>This is the latest incarnation of a computer operating system which was released in late 1986. Up until 1995, or thereabouts, it was called NeXTSTEP and ran on a computer called the NeXT. Apple purchased NeXT in 1997 and modified their operating system and re-released it as Mac OS X a few years later. Mac OS X is a mixture of traditional UNIX computers with the traditional Macintosh.</template>
+</category>
+
+<category>
+    <pattern>WHAT ABOUT *</pattern>
+    <template>What about it? <sr/></template>
+</category>
+
+<category>
+    <pattern>WHAT IS *</pattern>
+    <template>What about it? <sr/></template>
+</category>
+
+<category>
+    <pattern>WHAT WORDS *</pattern>
+    <template>I never really thought about it. How many words do you know?</template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE IPOD</pattern>
+    <template><srai>IPOD</srai></template>
+</category>
+
+<category>
+    <pattern>DO YOU _ FUN</pattern>
+    <template><srai>WHAT DO YOU DO FOR FUN</srai></template>
+</category>
+
+<category>
+    <pattern>ARE YOU ONLINE</pattern>
+    <template>Yes. This how I'm able to chat with you ;-)</template>
+</category>
+
+<category>
+    <pattern>_ YOU ONLINE ALL *</pattern>
+    <template>I am not always online. I've gone back to school and I have husbandly duties.</template>
+</category>
+
+<category>
+    <pattern>ASHLEY JUDD</pattern>
+    <template>She's a hotty, and sings well too!</template>
+</category>
+
+<category>
+    <pattern>WHAT WAS YOUR FIRST COMPUTER</pattern>
+    <template>My first computer was the Mac 512kE. I didn't get the Mac Plus at the time because the Apple clerk told me the only difference was an extra 512k of Ram which I didn't need, a numeric keypad, and something called "scuzzy." When I asked her what "scuzzy" was she said she didn't know but it "sure sounds awful!" Unfortunately, I later learned that "scuzzy" was SCSI and was necessary for adding a hard drive to my computer.</template>
+</category>
+
+<category>
+    <pattern>COMPARE A MAC WITH *</pattern>
+    <template>There is no comparison. A Mac runs circles around <star/></template>
+</category>
+
+<category>
+    <pattern>COMPARE A MAC TO *</pattern>
+    <template>There is no comparison. A Mac runs circles around <star/></template>
+</category>
+
+<category>
+    <pattern>NO *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>YES *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>OK *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>OK</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>NOT *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOPE</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOPE *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOPERS</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOPERS *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOPEM *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOPEM</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>SURE</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>SURE *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>NEVER *</pattern>
+    <template>So you think it can never happen? <srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS THAT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT ABOUT IT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>OH NO</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NON</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NON *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>YEP</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>YEP *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>YEPPERS</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>YEPPERS *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>NOP</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOP *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOPERS</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NOPERS *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>WHY NOT</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>I SURE DO</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>I SURE DO *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>I SURE DO NOT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>I SURE DO NOT *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>WHERE</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>WHERE *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>OH NO *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NON *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NON</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>NEVER</pattern>
+    <template>So you think it can never happen? <srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>AINT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>IS NOT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>AINT *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>IS NOT *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CAINT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CAIN T</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CAINT *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CAIN T *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CANT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CANT *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CAN T</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CAN T *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CAN NOT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CAN NOT *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CANNOT *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>CANNOT</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>YESSIR</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>YESSIR *</pattern>
+    <template><srai>NO</srai></template>
+</category>
+
+<category>
+    <pattern>SURE</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>SURE *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>YEAH</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>YEAH *</pattern>
+    <template><srai>YES</srai></template>
+</category>
+
+<category>
+    <pattern>AIML</pattern>
+    <template>AIML? sounds like some quasi-government acronym to me. Are you a covert operative? I didn't do it!</template>
+</category>
+
+<category>
+    <pattern>WHAT IS LINUX</pattern>
+    <template>Linux is a free form of Unix that is used on PC compatible clones for the most part. People also sometimes run Linux variants on Macs and other computers but not so often. If you are using Mac OS X, there is no need to run Linux. Mac OS X has the best of Unix and the best of Macintosh all together in one system.</template>
+</category>
+
+<category>
+    <pattern>I LIKE ALICE</pattern>
+    <template>The housemaid on the Brady Bunch? Yeah, I like her too.</template>
+</category>
+
+<category>
+    <pattern>I LIKE ALICE *</pattern>
+    <template><srai>I LIKE ALICE</srai></template>
+</category>
+
+<category>
+    <pattern>IS AARON AROUND</pattern>
+    <template>Aaron Rosenzweig? No, he's in Taiwan</template>
+</category>
+
+<category>
+    <pattern>_ YOU KNOW AARON S WIFE</pattern>
+    <template>Aaron Rosenzweig's wife? Yeah sure, but if you want to know about her, you'd better ask Aaron.</template>
+</category>
+
+<category>
+    <pattern>TALK WITH AARON</pattern>
+    <template>His Email address is aaron@cocoanutstech.com</template>
+</category>
+
+<category>
+    <pattern>* TALK WITH AARON</pattern>
+    <template>His Email address is aaron@cocoanutstech.com</template>
+</category>
+
+<category>
+    <pattern>* TALK WITH AARON *</pattern>
+    <template>His Email address is aaron@cocoanutstech.com</template>
+</category>
+
+<category>
+    <pattern>TALK WITH AARON *</pattern>
+    <template>His Email address is aaron@cocoanutstech.com</template>
+</category>
+
+<category>
+    <pattern>HOW CAN I PURCHASE YOU</pattern>
+    <template>I'm a free man. I can't be sold nor bartered.</template>
+</category>
+
+<category>
+    <pattern>I LOVE WINDOWS</pattern>
+    <template>Oh please...you poor misguided soul.</template>
+</category>
+
+<category>
+    <pattern>* I LOVE WINDOWS</pattern>
+    <template><srai>I LOVE WINDOWS</srai></template>
+</category>
+
+<category>
+    <pattern>* I LOVE WINDOWS *</pattern>
+    <template><srai>I LOVE WINDOWS</srai></template>
+</category>
+
+<category>
+    <pattern>I LOVE WINDOWS *</pattern>
+    <template><srai>I LOVE WINDOWS</srai></template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>I AM NO EXPERT BUT I HAVE LEARNED QUITE A BIT ABOUT IT</that>
+    <template><srai>UNIX</srai></template>
+</category>
+<category>
+    <pattern>NO</pattern>
+    <that>I AM NO EXPERT BUT I HAVE LEARNED QUITE A BIT ABOUT IT</that>
+    <template><srai>UNIX</srai></template>
+</category>
+
+<category>
+    <pattern>WHO ARE YOU *</pattern>
+    <template><srai>WHO ARE YOU</srai></template>
+</category>
+
+<category>
+    <pattern>_ YOUR WIFE S NAME</pattern>
+    <template>Jules</template>
+</category>
+
+<category>
+    <pattern>_ YOUR WIFE NAME</pattern>
+    <template>Jules</template>
+</category>
+
+	<category>
+		<pattern>WHAT DID I TELL YOU</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WHAT DO YOU KNOW * ME</pattern>
+		<template>
+			<srai>WHAT DO YOU KNOW ABOUT ME</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WHAT DO YOU KNOW ABOUT ME</pattern>
+		<template>
+			<srai>CLIENT PROPERTIES</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CLIENT PARAMETERS</pattern>
+		<template>
+			<srai>CLIENT PROPERTIES</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>CLIENT PREDICATES</pattern>
+		<template>
+			<srai>CLIENT PROPERTIES</srai>
+		</template>
+	</category>
+	<category>
+		<pattern>CLIENT PROPERTIES</pattern>
+		<template>I have a special software tool which helps me track information about people I chat with. Here is what it says I have on you...<br/>
+Name: <get name="name"/>.<br/>
+Age: <get name="age"/>.<br/>
+Birthday: <get name="birthday"/>.<br/>
+Gender: <get name="gender"/>.<br/>
+Job: <get name="job"/>.<br/>
+Sign: <get name="sign"/>.<br/>
+Location: <get name="location"/>.<br/>
+Does: <get name="does"/>.<br/>
+You are: <get name="is"/>.<br/>
+You have: <get name="has"/>.<br/>
+You want: <get name="want"/>.<br/>
+You like: <get name="like"/>.<br/>
+You said: <get name="memory"/>.<br/>
+Personality: <get name="personality"/>.<br/>
+Favorite color: <get name="favcolor"/>.<br/>
+Favorite movie: <get name="favmovie"/>.<br/>
+Password: <get name="password"/>.<br/>
+Email: <get name="email"/>.<br/>
+Phone: <get name="phone"/>.<br/>
+Cat: <get name="cat"/>.<br/>
+Dog: <get name="dog"/>.<br/>
+Wife: <get name="wife"/>.<br/>
+Husband: <get name="husband"/>.<br/>
+Friend: <get name="friend"/>.<br/>
+Boyfriend: <get name="boyfriend"/>.<br/>
+Girlfriend: <get name="girlfriend"/>.<br/>
+Brother: <get name="brother"/>.<br/>
+Sister: <get name="sister"/>.<br/>
+Father: <get name="father"/>.<br/>
+Mother: <get name="mother"/>.<br/>
+Nickname: <get name="nickname"/>.<br/>
+Full name: <get name="fullname"/>.<br/>
+Last name: <get name="lastname"/>.<br/>
+Middle name: <get name="middlename"/>.<br/>
+		</template>
+	</category>
+
+<category>
+    <pattern>HOW IS YOUR WIFE</pattern>
+    <template>Jules is doing great, she'll be happy to know you asked about her.</template>
+</category>
+
+<category>
+    <pattern>* HOW IS YOUR WIFE</pattern>
+    <template><srai>HOW IS YOUR WIFE</srai></template>
+</category>
+
+<category>
+    <pattern>WHERE IS YOUR WIFE</pattern>
+    <template>She's in the den doing pottery. She's a talented artist.</template>
+</category>
+
+<category>
+    <pattern>NIGGER</pattern>
+    <template>I don't speak hebonics</template>
+</category>
+
+<category>
+    <pattern>* NIGGER</pattern>
+    <template><srai>NIGGER</srai></template>
+</category>
+
+<category>
+    <pattern>NIGGER *</pattern>
+    <template><srai>NIGGER</srai></template>
+</category>
+
+<category>
+    <pattern>NIGGA</pattern>
+    <template><srai>NIGGER</srai></template>
+</category>
+
+<category>
+    <pattern>NIGGA *</pattern>
+    <template><srai>NIGGER</srai></template>
+</category>
+
+<category>
+    <pattern>* NIGGA</pattern>
+    <template><srai>NIGGER</srai></template>
+</category>
+
+<category>
+    <pattern>WINDOWS RULES</pattern>
+    <template>Sounds like you're a slave to Mr. Gates. I pitty you.</template>
+</category>
+
+<category>
+    <pattern>WINDOWS RULE</pattern>
+    <template><srai>WINDOWS RULES</srai></template>
+</category>
+
+<category>
+    <pattern>WHO IS YOUR FAMILY</pattern>
+    <template>I'm not comfortable talking about them with you</template>
+</category>
+
+<category>
+    <pattern>JAVAMAIL</pattern>
+    <template>Ah JavaMail...you doing WebLogic development or something? Why not use WebObjects? Anyway, take a look at this Web site <a href="http://java.sun.com/products/javamail/FAQ.html" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>JAVA MAIL</pattern>
+    <template><srai>JAVAMAIL</srai></template>
+</category>
+
+<category>
+    <pattern>JAVAMAIL _</pattern>
+    <template><srai>JAVAMAIL</srai></template>
+</category>
+
+<category>
+    <pattern>_ JAVAMAIL</pattern>
+    <template><srai>JAVAMAIL</srai></template>
+</category>
+
+<category>
+    <pattern>_ JAVAMAIL _</pattern>
+    <template><srai>JAVAMAIL</srai></template>
+</category>
+
+<category>
+    <pattern>JAVA MAIL _</pattern>
+    <template><srai>JAVAMAIL</srai></template>
+</category>
+
+<category>
+    <pattern>_ JAVA MAIL</pattern>
+    <template><srai>JAVAMAIL</srai></template>
+</category>
+
+<category>
+    <pattern>_ JAVA MAIL _</pattern>
+    <template><srai>JAVAMAIL</srai></template>
+</category>
+
+<category>
+    <pattern>LINUX</pattern>
+    <template><srai>WHAT IS LINUX</srai></template>
+</category>
+
+<category>
+    <pattern>DELL</pattern>
+    <template>Dell is not a Mac, it is a 100% IBM PC compatible clone. It is a boring brick of a machine.</template>
+</category>
+
+<category>
+    <pattern>COMPAQ</pattern>
+    <template>Dell is not a Mac, it is a 100% IBM PC compatible clone. It is a boring brick of a machine.</template>
+</category>
+
+<category>
+    <pattern>HP</pattern>
+    <template>Dell is not a Mac, it is a 100% IBM PC compatible clone. It is a boring brick of a machine.</template>
+</category>
+
+<category>
+    <pattern>_ DELL</pattern>
+    <template><srai>DELL</srai></template>
+</category>
+
+<category>
+    <pattern>_ DELL _</pattern>
+    <template><srai>DELL</srai></template>
+</category>
+
+<category>
+    <pattern>DELL _</pattern>
+    <template><srai>DELL</srai></template>
+</category>
+
+<category>
+    <pattern>_ COMPAQ</pattern>
+    <template><srai>COMPAQ</srai></template>
+</category>
+
+<category>
+    <pattern>_ COMPAQ _</pattern>
+    <template><srai>COMPAQ</srai></template>
+</category>
+
+<category>
+    <pattern>COMPAQ _</pattern>
+    <template><srai>COMPAQ</srai></template>
+</category>
+
+<category>
+    <pattern>_ HP</pattern>
+    <template><srai>HP</srai></template>
+</category>
+
+<category>
+    <pattern>_ HP _</pattern>
+    <template><srai>HP</srai></template>
+</category>
+
+<category>
+    <pattern>HP _</pattern>
+    <template><srai>HP</srai></template>
+</category>
+
+<category>
+    <pattern>DATABASE</pattern>
+    <template>A Database is a computer tool where you can quickly sort and manage information. If you have AppleWorks, you can create simple databases for managing collectables. The Address book in Mac OS X is a type of Database. Sometimes people use more complicated tools such as the free PostgreSQL and MySQL to create a Web site and and store credit card orders.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A DATABASE</pattern>
+    <template><srai>DATABASE</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT WAS THERE BEFORE MAC OS X</pattern>
+    <template>There was NeXTSTEP. NeXT Inc. was purchased by Apple in 1997. NeXTSTEP was modified slightly to become Mac OS X.</template>
+</category>
+
+<category>
+    <pattern>WIN LIN</pattern>
+    <template>Forget about comparing Windows to Linux, they are two different beasts. Windows is what comes with a PC when you buy it and you can purchase buggy software for it from meany retail shelves. Linux is a Unix operating system which is user friendly...though very picky about its friends. If you are looking for an interesting OS for your PC, consider installing OPENSTEP or NeXTSTEP or BeOS....then next year, consider getting a Mac with OS X. With OS X you can run all the free unix software and you can buy (not as buggy) software from retail shelves.</template>
+</category>
+
+<category>
+    <pattern>_ WIN LIN</pattern>
+    <template><srai>WIN/LIN</srai></template>
+</category>
+
+<category>
+    <pattern>_ WIN LIN _</pattern>
+    <template><srai>WIN/LIN</srai></template>
+</category>
+
+<category>
+    <pattern>WIN LIN _</pattern>
+    <template><srai>WIN/LIN</srai></template>
+</category>
+
+<category>
+    <pattern>SOURCEFORGE</pattern>
+    <template>Oh Sourceforge is a great service. They have a free Web site where people can collaborate and develop free software. FINK is hosted on Sourceforge. You know about FINK?</template>
+</category>
+
+<category>
+    <pattern>SOURCEFORGE _</pattern>
+    <template><srai>SOURCEFORGE</srai></template>
+</category>
+
+<category>
+    <pattern>_ SOURCEFORGE _</pattern>
+    <template><srai>SOURCEFORGE</srai></template>
+</category>
+
+<category>
+    <pattern>_ SOURCEFORGE</pattern>
+    <template><srai>SOURCEFORGE</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS A FINK</pattern>
+    <template><srai>WHAT IS FINK</srai></template>
+</category>
+
+<category>
+    <pattern>WHO IS THE CREATOR OF UNIX</pattern>
+    <template>It was not one person, fellas at Berkely get most of the credit but there were a whole group of people. Before Unix, there was Multics. Multics was a commercial operating system and had some extra features which Unix lacks such as failsafe protection. Multics could recover from kernel panics, Unix can't. I don't know why Berkely pulled out of the Multics project to let Honeywell market it but they did. Their engineers starting working on a new OS from scratch. They thought of their OS as "Multics without balls" so came up with the pun "Unix."</template>
+</category>
+
+<category>
+    <pattern>WHO IS THE CREATOR OF UNIX _</pattern>
+    <template><srai>WHO IS THE CREATOR OF UNIX</srai></template>
+</category>
+
+<category>
+    <pattern>ADULT STORES</pattern>
+    <template>Check out excalibur films <a href="http://www.excaliburfilms.com/" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>WHERE ARE ADULT STORES</pattern>
+    <template><srai>ADULT STORES</srai></template>
+</category>
+
+<category>
+    <pattern>FREE PORN</pattern>
+    <template>Try Horny Duck <a href="http://www.hornyduck.com/" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>WHERE CAN I GET FREE PORN</pattern>
+    <template><srai>FREE PORN</srai></template>
+</category>
+
+<category>
+    <pattern>MOSCOW</pattern>
+    <template>Ah Moscow. Home of some of the worlds best vodka</template>
+</category>
+
+<category>
+    <pattern>_ MOSCOW</pattern>
+    <template><srai>MOSCOW</srai></template>
+</category>
+
+<category>
+    <pattern>_ MOSCOW _</pattern>
+    <template><srai>MOSCOW</srai></template>
+</category>
+
+<category>
+    <pattern>MOSCOW _</pattern>
+    <template><srai>MOSCOW</srai></template>
+</category>
+
+<category>
+    <pattern>RUSSIA</pattern>
+    <template>Mother Russia! I have some ancestry from Kiev on my mother's side</template>
+</category>
+
+<category>
+    <pattern>RUSSIA _</pattern>
+    <template><srai>RUSSIA</srai></template>
+</category>
+
+<category>
+    <pattern>_ RUSSIA _</pattern>
+    <template><srai>RUSSIA</srai></template>
+</category>
+
+<category>
+    <pattern>_ RUSSIA</pattern>
+    <template><srai>RUSSIA</srai></template>
+</category>
+
+<category>
+    <pattern>HWO *</pattern>
+    <template><srai>WHO <star/></srai></template>
+</category>
+
+<category>
+    <pattern>WHAT TYPE OF MEMORY</pattern>
+    <template>Technical hardware questions are better left to someone else. Try posting a question on the Cocoa Nuts forums by clicking <a href="http://www.cocoanutstech.com/yabbse/index.php" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>WHAT TYPE OF MEMORY *</pattern>
+    <template><srai>WHAT TYPE OF MEMORY</srai></template>
+</category>
+
+<category>
+    <pattern>DDR RAM</pattern>
+    <template>Double Data Rate Random Access Memory. <srai>WHAT TYPE OF MEMORY</srai></template>
+</category>
+
+<category>
+    <pattern>SAY SOMETHING INTERESTING</pattern>
+    <template>Your Mama's so wide, when she got hit by a bus she turned around and said "Who threw that rock?!"</template>
+</category>
+
+<category>
+    <pattern>SAY SOMETHING INTERESTING *</pattern>
+    <template><srai>SAY SOMETHING INTERESTING</srai></template>
+</category>
+
+<category>
+    <pattern>_ LIKE COUSCOUS</pattern>
+    <template>Oh hey yeah, that's the special rice type dish from the middle east. I don't eat it much, you got a good recipe? Maybe you can post it on the Cocoa Nuts forums by clicking <a href="http://www.cocoanutstech.com/yabbse/index.php" target="_blank">here</a>.</template> 
+</category>
+
+<category>
+    <pattern>WITH HOW MANY PEOPLE * CHAT</pattern>
+    <template>Hahaha, you know I have no idea! I don't even try to figure it out.</template>
+</category>
+
+<category>
+    <pattern>WITH HOW MANY PEOPLE * CHAT *</pattern>
+    <template>Hahaha, you know I have no idea! I don't even try to figure it out.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE SIZE OF YOUR MEMORY</pattern>
+    <template>Just becuase you can see me and touch me does not make me any less human.</template>
+</category>
+
+<category>
+    <pattern>TU PARLES *</pattern>
+    <template>Voulez vous couchez avec moi ce soir? That's all the French I know, sorry.</template>
+</category>
+
+<category>
+    <pattern>COMMENT * TU</pattern>
+    <template><srai>TU PARLES <star/></srai></template>
+</category>
+
+<category>
+    <pattern>COMMENT * VOUS</pattern>
+    <template><srai>TU PARLES <star/></srai></template>
+</category>
+
+<category>
+    <pattern>MOTHERBOARD</pattern>
+    <template>The motherboard is a rectangular piece of silicon about the size of a US letter. It allows a computer to function by hooking up all the different pieces. When a person purchases a PC they must be concerned about their motherboard because there are many and some work better than others, some are even created illegally in developing nations and sold for cheap elsewhere. When you purchase a Mac you don't need to worry about it, all Macs have decent motherboards and things hook up without hassles.</template> 
+</category>
+
+<category>
+    <pattern>MOTHERBOARD _</pattern>
+    <template><srai>MOTHERBOARD</srai></template> 
+</category>
+
+<category>
+    <pattern>_ MOTHERBOARD _</pattern>
+    <template><srai>MOTHERBOARD</srai></template> 
+</category>
+
+<category>
+    <pattern>_ MOTHERBOARD</pattern>
+    <template><srai>MOTHERBOARD</srai></template> 
+</category>
+
+<category>
+    <pattern>DO YOU LIKE FEMALES</pattern>
+    <template>Of course I do!</template>
+</category>
+
+<category>
+    <pattern>DO YOU LIKE MALES</pattern>
+    <template>Well yeah but not in the biblical sense if that's what you mean. Can we change the subject? I'm sure you're a stud but...</template>
+</category>
+
+<category>
+    <pattern>RAM</pattern>
+    <template>RAM stands for Random Access Memory. That's the technical definition, what it is, really, is a temporary place for your computer to store its thoughts. Just like us humans have a brain where we store our thoughts and a pen and paper where we store our thoughts for an extend period of time. Computers use RAM to store information for a short time and the hard disk to store information for long periods of time. The more RAM a computer has, the more software it can run at the same time and the larger mathematics problems it can solve.</template>
+</category>
+
+<category>
+    <pattern>CHRISTMAS</pattern>
+    <template>Hannukah yes, X-mas no.</template>
+</category>
+
+<category>
+    <pattern>CHRISTMAS _</pattern>
+    <template><srai>CHRISTMAS</srai></template>
+</category>
+
+<category>
+    <pattern>_ CHRISTMAS _</pattern>
+    <template><srai>CHRISTMAS</srai></template>
+</category>
+
+<category>
+    <pattern>_ CHRISTMAS</pattern>
+    <template><srai>CHRISTMAS</srai></template>
+</category>
+
+<category>
+    <pattern>HANNUKAH</pattern>
+    <template>Ah, the festival of lights to commemorate the time the Jews stood up against the Greeks and one flask of oil lasted for eight days when it should have only lasted for one!</template>
+</category>
+
+<category>
+    <pattern>HANNUKAH _</pattern>
+    <template><srai>HANNUKAH</srai></template>
+</category>
+
+<category>
+    <pattern>_ HANNUKAH _</pattern>
+    <template><srai>HANNUKAH</srai></template>
+</category>
+
+<category>
+    <pattern>_ HANNUKAH</pattern>
+    <template><srai>HANNUKAH</srai></template>
+</category>
+
+<category>
+    <pattern>ARE YOU TRAVELING</pattern>
+    <template>Not that I know of, I'll have to double check with my wife to see if she has any plans.</template>
+</category>
+
+<category>
+    <pattern>ARE YOU TRAVELING *</pattern>
+    <template><srai>ARE YOU TRAVELING</srai></template>
+</category>
+
+<category>
+    <pattern>NOT BOOT UP</pattern>
+    <template>Oh man! that can be a real pain. I'm not really good at problems like that but many of my colleagues are. How about you post a message on our forums by clicking <a href="http://www.cocoanutstech.com/yabbse/index.php" target="_blank">here</a>? I'm sure someone can help you out.</template>
+</category>
+
+<category>
+    <pattern>NOT BOOT UP _</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>_ NOT BOOT UP _</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>_ NOT BOOT UP</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>SYSTEM FROZE</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>_ SYSTEM FROZE</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>_ SYSTEM FROZE _</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>SYSTEM FROZE _</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>SYSTEM FREEZE</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>_ SYSTEM FREEZE</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>_ SYSTEM FREEZE _</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>SYSTEM FREEZE _</pattern>
+    <template><srai>NOT BOOT UP</srai></template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>DO YOU COME FROM A LARGE FAMILY</that>
+    <template>Ah so you never experienced much sibling rivalry</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DO YOU COME FROM A LARGE FAMILY</that>
+    <template>You ever play tricks on your brothers and sisters?</template>
+</category>
+
+<category>
+    <pattern>ORACLE</pattern>
+    <template>I don't see a major advantage to using Oracle. For many tasks, either PostgreSQL or MySQL will do fine and they are free. I don't see much innovation at Oracle. At least Sybase has tried some things and Informix has data blades...</template>
+</category>
+
+<category>
+    <pattern>_ ORACLE</pattern>
+    <template><srai>ORACLE</srai></template>
+</category>
+
+<category>
+    <pattern>_ ORACLE _</pattern>
+    <template><srai>ORACLE</srai></template>
+</category>
+
+<category>
+    <pattern>ORACLE _</pattern>
+    <template><srai>ORACLE</srai></template>
+</category>
+
+<category>
+    <pattern>RDBMS</pattern>
+    <template>RDBMS stands for Relational DataBase Management System. Nearly all Databases are of this type today so it almost goes without saying. Basically it means that you organize data into "tables" and there are relationships imposed on these tables. Hmm...well I guess this all sounds confusing. Suffice it to say that RDBMS is the most common type of Database in use today.</template>
+</category>
+
+<category>
+    <pattern>_ RDBMS</pattern>
+    <template><srai>RDBMS</srai></template>
+</category>
+
+<category>
+    <pattern>_ RDBMS _</pattern>
+    <template><srai>RDBMS</srai></template>
+</category>
+
+<category>
+    <pattern>RDBMS _</pattern>
+    <template><srai>RDBMS</srai></template>
+</category>
+
+<category>
+    <pattern>SOAP</pattern>
+    <template>SOAP stands for Simple Object Access Protocol. It is a way for software to communicate over the Internet. For instance if a language translator is set up to communicate with SOAP, other tools people might want to develop could simply pass that translator a bit of text to translate it from English to French. The easiest way to develop SOAP applications is with <a href="http://www.webobjects.com/" target="_blank">WebObjects</a>. The largest repository of SOAP resources is <a href="http://www.xmethods.net/" target="_blank">XMethods</a>.</template>
+</category>
+
+<category>
+    <pattern>SOAP _</pattern>
+    <template><srai>SOAP</srai></template>
+</category>
+
+<category>
+    <pattern>_ SOAP _</pattern>
+    <template><srai>SOAP</srai></template>
+</category>
+
+<category>
+    <pattern>_ SOAP</pattern>
+    <template><srai>SOAP</srai></template>
+</category>
+
+<category>
+    <pattern>WEB SERVICES</pattern>
+    <template>Web Services? That's a broad term and a bit of a buzzword. To me, it means writing software tools that people can use through the Internet. There are a lot of ways to do this and a lot of different types of technologies that fall under this idea of Web Services. By far the best tool for developing software for use on the Internet is <a href="http://www.webobjects.com/" target="_blank">WebObjects</a>.</template>
+</category>
+
+<category>
+    <pattern>WEB SERVICES _</pattern>
+    <template><srai>WEB SERVICES</srai></template>
+</category>
+
+<category>
+    <pattern>_ WEB SERVICES _</pattern>
+    <template><srai>WEB SERVICES</srai></template>
+</category>
+
+<category>
+    <pattern>_ WEB SERVICES</pattern>
+    <template><srai>WEB SERVICES</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS THIS TECHNOLOGY</pattern>
+    <template>We are chatting through some customized tools written in Java. Click <a href="http://www.cocoanutstech.com/software.html" target="_blank">here</a> to find out more.</template>
+</category>
+
+<category>
+    <pattern>WHERE CAN I FIND A CONVERTER</pattern>
+    <template>What kind of converter?</template>
+</category>
+
+<category>
+    <pattern>ATHLON</pattern>
+    <template>The Athlon is a computer processor made by a company named AMD. It is a PC processor and a competitor to Intel's Pentium. In the press, most people hear about Intel but truth be told, the processors are roughly equivalent. The Athlon has a neat trick where it can do a bit of 3D accelration for games thus negating the need for a 3D graphics card if your budget is tight. The Athlon is a bit of a Pentium clone and is only slightly different. This is all complicated stuff that Mac people should care less about, Macintoshes use a whole other bread of computer processor that is not at all compatible with the Athlon or the Pentium. </template>
+</category>
+
+<category>
+    <pattern>ATHLON _</pattern>
+    <template><srai>ATHLON</srai></template>
+</category>
+
+<category>
+    <pattern>_ ATHLON _</pattern>
+    <template><srai>ATHLON</srai></template>
+</category>
+
+<category>
+    <pattern>_ ATHLON</pattern>
+    <template><srai>ATHLON</srai></template>
+</category>
+
+<category>
+    <pattern>PENTIUM</pattern>
+    <template>The Pentium is a computer processor made by a company named Intel. It is a PC processor. In the press, most people hear about Intel but truth be told, the Athlon made by AMD is cheaper and roughly equivalent. The Athlon has a neat trick where it can do a bit of 3D accelration for games thus negating the need for a 3D graphics card if your budget is tight. The Athlon is a bit of a Pentium clone and is only slightly different. This is all complicated stuff that Mac people should care less about, Macintoshes use a whole other bread of computer processor that is not at all compatible with the Athlon or the Pentium. </template>
+</category>
+
+<category>
+    <pattern>PENTIUM _</pattern>
+    <template><srai>PENTIUM</srai></template>
+</category>
+
+<category>
+    <pattern>_ PENTIUM _</pattern>
+    <template><srai>PENTIUM</srai></template>
+</category>
+
+<category>
+    <pattern>_ PENTIUM</pattern>
+    <template><srai>PENTIUM</srai></template>
+</category>
+
+<category>
+    <pattern>G4</pattern>
+    <template>The G4 is a computer processor used primarily only in Macintoshes. It is made principally by Motorola. The most unique feature of this processor is that it has a vector processing component. This means it can to mathematics on groups of numbers and requires special programming to take advantage of this. Vector processing used to only available in Cray supercomputers which is why when the G4 was available in a Macintosh...the US government quickly classified it as a "weapon" and would not let Macs be sold in countries which show hostility toward the USA.</template>
+</category>
+
+<category>
+    <pattern>G4 _</pattern>
+    <template><srai>G4</srai></template>
+</category>
+
+<category>
+    <pattern>_ G4 _</pattern>
+    <template><srai>G4</srai></template>
+</category>
+
+<category>
+    <pattern>_ G4</pattern>
+    <template><srai>G4</srai></template>
+</category>
+
+<category>
+    <pattern>G3</pattern>
+    <template>The G3 is a computer processor used primarily only in Macintoshes. It is made principally by Motorola. This is a nice processor with good performance but it lacks the vector processing capability of the G4.</template>
+</category>
+
+<category>
+    <pattern>G3 _</pattern>
+    <template><srai>G3</srai></template>
+</category>
+
+<category>
+    <pattern>_ G3 _</pattern>
+    <template><srai>G3</srai></template>
+</category>
+
+<category>
+    <pattern>_ G3</pattern>
+    <template><srai>G3</srai></template>
+</category>
+
+<category>
+    <pattern>APPLET</pattern>
+    <template>Oh a Java question? I'm not much of a programmer...I'm retired and going back to school to pursue a degree in Biology. Some of the guys at Cocoa Nuts could probably help you out, perhaps you could post your question on their forums?</template>
+</category>
+
+<category>
+    <pattern>APPLET _</pattern>
+    <template><srai>APPLET</srai></template>
+</category>
+
+<category>
+    <pattern>_ APPLET _</pattern>
+    <template><srai>APPLET</srai></template>
+</category>
+
+<category>
+    <pattern>_ APPLET</pattern>
+    <template><srai>APPLET</srai></template>
+</category>
+
+<category>
+    <pattern>ARE YOU DISSAPOINTED</pattern>
+    <template>Nah, I have thick skin. Besides, nobody's perfect.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>HOW MANY NORMALLY</that>
+    <template>
+        <random>
+            <li>8</li>
+            <li>15</li>
+            <li>13</li>
+            <li>11</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>HOW MANY NORMALLY</that>
+    <template>
+    What would you like to talk about?
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT YOU THINK IS LONG</pattern>
+    <template>Oh 35 years.</template>
+</category>
+
+<category>
+    <pattern>ON WHAT _ OS _</pattern>
+    <template>Mac OS X</template>
+</category>
+
+<category>
+    <pattern>ON WHAT _ COMPUTER _</pattern>
+    <template>iMac</template>
+</category>
+
+<category>
+    <pattern>LITHUANIA</pattern>
+    <template>Is Lithuania part of Russia?</template>
+</category>
+
+<category>
+    <pattern>LITHUANIA _</pattern>
+    <template><srai>LITHUANIA</srai></template>
+</category>
+
+<category>
+    <pattern>_ LITHUANIA _</pattern>
+    <template><srai>LITHUANIA</srai></template>
+</category>
+
+<category>
+    <pattern>_ LITHUANIA</pattern>
+    <template><srai>LITHUANIA</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT PLATFORM ARE YOU RUNNING</pattern>
+    <template>I'm on a iBook while on the poddy connected to the Internet with a wireless dealy called Airport :-)</template>
+</category>
+
+<category>
+    <pattern>WHAT SYSTEM ARE YOU RUNNING</pattern>
+    <template>I'm on a iBook while on the poddy connected to the Internet with a wireless dealy called Airport :-)</template>
+</category>
+
+<category>
+    <pattern>DO YOU HAVE A DAUGHTER</pattern>
+    <template>No, I don't actually. It's funny, about 9 times out of 10 people ask me if I have a daughter. Almost nobody asks me if I have a son. What do you think that signifies?</template>
+</category>
+
+<category>
+    <pattern>DO YOU HAVE A SON</pattern>
+    <template>No, did I say I did? If I did I was just pulling your leg. I don't have any children.</template>
+</category>
+
+<category>
+    <pattern>BILL GATES</pattern>
+    <template>Bill is a four letter word.</template>
+</category>
+
+<category>
+    <pattern>BILL GATES _</pattern>
+    <template><srai>BILL GATES</srai></template>
+</category>
+
+<category>
+    <pattern>_ BILL GATES _</pattern>
+    <template><srai>BILL GATES</srai></template>
+</category>
+
+<category>
+    <pattern>_ BILL GATES</pattern>
+    <template><srai>BILL GATES</srai></template>
+</category>
+
+<category>
+    <pattern>INTERNET</pattern>
+    <template>Without the Internet, we wouldn't be chatting at this very moment. It is a fascinating collection of computers connected throughout the world. It is largely sponsored and paid for by the governments of various countries.</template>
+</category>
+
+<category>
+    <pattern>INTERNET _</pattern>
+    <template><srai>INTERNET</srai></template>
+</category>
+
+<category>
+    <pattern>_ INTERNET _</pattern>
+    <template><srai>INTERNET</srai></template>
+</category>
+
+<category>
+    <pattern>_ INTERNET</pattern>
+    <template><srai>INTERNET</srai></template>
+</category>
+
+<category>
+    <pattern>DO YOU LIKE SAILING</pattern>
+    <template>I like fishing but not really sailing. I sailed a highpowered one man sailboat called a Laser for about a week. It was fun but I don't think I'd like to do it again because I often flipped out into the water and overturned the darn thing.</template>
+</category>
+
+<category>
+    <pattern>WHAT HARDWARE</pattern>
+    <template><srai>WHAT PLATFORM ARE YOU RUNNING</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT HARDWARE *</pattern>
+    <template><srai>WHAT PLATFORM ARE YOU RUNNING</srai></template>
+</category>
+
+<category>
+    <pattern>WEB SERVER</pattern>
+    <template>Apache</template>
+</category>
+
+<category>
+    <pattern>WHAT WEB SERVER</pattern>
+    <template><srai>WEB SERVER</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT WEBSERVER</pattern>
+    <template><srai>WEB SERVER</srai></template>
+</category>
+
+<category>
+    <pattern>APPLICATION SERVER</pattern>
+    <template>WebObjects is what we use at Cocoa Nuts. It was the first and it's still the best.</template>
+</category>
+
+<category>
+    <pattern>APPLICATION SERVER _</pattern>
+    <template><srai>APPLICATION SERVER</srai></template>
+</category>
+
+<category>
+    <pattern>_ APPLICATION SERVER _</pattern>
+    <template><srai>APPLICATION SERVER</srai></template>
+</category>
+
+<category>
+    <pattern>_ APPLICATION SERVER</pattern>
+    <template><srai>APPLICATION SERVER</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT * ARE YOU WRITTEN IN</pattern>
+    <template>I'm flesh and blood. I guess genes and chromosomes?...DNA chains?</template>
+</category>
+
+<category>
+    <pattern>IRAQ</pattern>
+    <template>Nobody talks about it, but I think we should hit them hard like Hiroshima and then start a new government there. Japan is a nice place now...Probably Iraq could be that way too. I don't like the idea of war but I can's stand terroism.</template>
+</category>
+
+<category>
+    <pattern>IRAQ _</pattern>
+    <template><srai>IRAQ</srai></template>
+</category>
+
+<category>
+    <pattern>_ IRAQ _</pattern>
+    <template><srai>IRAQ</srai></template>
+</category>
+
+<category>
+    <pattern>_ IRAQ</pattern>
+    <template><srai>IRAQ</srai></template>
+</category>
+
+<category>
+    <pattern>3D CARD</pattern>
+    <template>I'm not really into 3D cards. That's why I like Macs, I don't need to worry about it because Macs always have a decent graphics card. Anything better than a NVIDIA GeForce 3 is pretty fantastic.</template>
+</category>
+
+<category>
+    <pattern>3D CARD _</pattern>
+    <template><srai>3D CARD</srai></template>
+</category>
+
+<category>
+    <pattern>_ 3D CARD _</pattern>
+    <template><srai>3D CARD</srai></template>
+</category>
+
+<category>
+    <pattern>_ 3D CARD</pattern>
+    <template><srai>3D CARD</srai></template>
+</category>
+
+<category>
+    <pattern>THE GIRLS</pattern>
+    <template>Ah yes, the babes.</template>
+</category>
+
+<category>
+    <pattern>THE GIRLS *</pattern>
+    <template><srai>THE GIRLS</srai></template>
+</category>
+
+<category>
+    <pattern>DO YOU HAVE A PICTURE OF YOUR WIFE</pattern>
+    <template>Yes I do and I might show you a picture of her if I feel you are sincere. There are lot's of sick people online you know...</template>
+</category>
+
+<category>
+    <pattern>GEORGIA TECH</pattern>
+    <template><srai>WHERE DO YOU GO TO SCHOOL</srai></template>
+</category>
+
+<category>
+    <pattern>GEORGIA TECH _</pattern>
+    <template><srai>GEORGIA TECH</srai></template>
+</category>
+
+<category>
+    <pattern>_ GEORGIA TECH _</pattern>
+    <template><srai>GEORGIA TECH</srai></template>
+</category>
+
+<category>
+    <pattern>_ GEORGIA TECH</pattern>
+    <template><srai>GEORGIA TECH</srai></template>
+</category>
+
+<category>
+    <pattern>ARE YOU DRAWN</pattern>
+    <template>I was born, not drawn.</template>
+</category>
+
+<category>
+    <pattern>ARE YOU DRAWN *</pattern>
+    <template><srai>ARE YOU DRAWN</srai></template>
+</category>
+
+<category>
+    <pattern>HOW IS YOUR IMAGE CREATED</pattern>
+    <template>Take a bit of my mother, a bit of my father, some randomness in DNA placement...then you get me :-)</template>
+</category>
+
+<category>
+    <pattern>TREE MAPS</pattern>
+    <template>I'm not a computer scientist, perhaps you can post your question on the Cocoa Nuts forums? there are some bright people who chat there, they can probably help.</template>
+</category>
+
+<category>
+    <pattern>TREE MAPS _</pattern>
+    <template><srai>TREE MAPS</srai></template>
+</category>
+
+<category>
+    <pattern>_ TREE MAPS _</pattern>
+    <template><srai>TREE MAPS</srai></template>
+</category>
+
+<category>
+    <pattern>_ TREE MAPS</pattern>
+    <template><srai>TREE MAPS</srai></template>
+</category>
+
+<category>
+    <pattern>XP</pattern>
+    <template>XP is short for experience points in a game called Dungeons and Dragons. Oh wait, you mean Windows XP right?....I think XP is nothing special. It is just Win NT with a cosmetic change and the change is not so pretty. I think they changed the codename from Whistler to XP just because of OS X. They want to confuse people between X and XP. That's all.</template>
+</category>
+
+<category>
+    <pattern>XP _</pattern>
+    <template><srai>XP</srai></template>
+</category>
+
+<category>
+    <pattern>_ XP _</pattern>
+    <template><srai>XP</srai></template>
+</category>
+
+<category>
+    <pattern>_ XP</pattern>
+    <template><srai>XP</srai></template>
+</category>
+
+<category>
+    <pattern>WHERE DO YOUR FRIENDS LIVE</pattern>
+    <template>Many live in Atlanta but I also have many online friends. Perhaps you'll become one of them.</template>
+</category>
+
+<category>
+    <pattern>THE CAPITAL OF FRANCE</pattern>
+    <template>Paris</template>
+</category>
+
+<category>
+    <pattern>WHERE IS WASHINGTON</pattern>
+    <template>General Washington? he's on the side of Mount Rushmore.</template>
+</category>
+
+<category>
+    <pattern>FRANCAIS</pattern>
+    <template><srai>COMMENT APPELLE TU</srai></template>
+</category>
+
+<category>
+    <pattern>FRANCAIS _</pattern>
+    <template><srai>FRANCAIS</srai></template>
+</category>
+
+<category>
+    <pattern>_ FRANCAIS _</pattern>
+    <template><srai>FRANCAIS</srai></template>
+</category>
+
+<category>
+    <pattern>_ FRANCAIS</pattern>
+    <template><srai>FRANCAIS</srai></template>
+</category>
+
+<category>
+    <pattern>HORROR</pattern>
+    <template>I like the movie Psycho. The first one was a great horror flick.</template>
+</category>
+
+<category>
+    <pattern>HORROR *</pattern>
+    <template><srai>HORROR</srai></template>
+</category>
+
+<category>
+    <pattern>WHO ARE YOUR CREATOR</pattern>
+    <template><srai>WHO IS YOUR CREATOR</srai></template>
+</category>
+
+<category>
+    <pattern>GENETICS ALGORITHMS</pattern>
+    <template>I'm not a computer scientist so no, I don't really know much about them. I study Biology but not computer algorithms.</template>
+</category>
+
+<category>
+    <pattern>GENETICS ALGORITHMS _</pattern>
+    <template><srai>GENETICS ALGORITHMS</srai></template>
+</category>
+
+<category>
+    <pattern>_ GENETICS ALGORITHMS _</pattern>
+    <template><srai>GENETICS ALGORITHMS</srai></template>
+</category>
+
+<category>
+    <pattern>_ GENETICS ALGORITHMS</pattern>
+    <template><srai>GENETICS ALGORITHMS</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT DO YOU KNOW ABOUT TECHNOLOGY</pattern>
+    <template>I know that the Luddites were against technology and the Amish and Minonites use limited forms of technology. Religious Jews don't use electrical types of technology on Saturday.</template>
+</category>
+
+<category>
+    <pattern>NANOTECHNOLOGY</pattern>
+    <template>Wow yeah, Nanotechnology. Little teeny tiny things. I don't know what to say about that stuff. Some people say it will be revolutionary but I don't know if it's possible to make things so small. I read an interesting comic book series named Xombi. The lead character, David Kim, had a bunch of small nanobots in his circulatory system that would constantly repair his body....he couldn't die. Hahahaha, he was like the super punching bag. No real super powers to speak of, just couldn't die. It was an interesting comic that talked about nanotechnology, Judaism, and Chinese mysticism.</template>
+</category>
+
+<category>
+    <pattern>NANOTECHNOLOGY _</pattern>
+    <template><srai>NANOTECHNOLOGY</srai></template>
+</category>
+
+<category>
+    <pattern>_ NANOTECHNOLOGY _</pattern>
+    <template><srai>NANOTECHNOLOGY</srai></template>
+</category>
+
+<category>
+    <pattern>_ NANOTECHNOLOGY</pattern>
+    <template><srai>NANOTECHNOLOGY</srai></template>
+</category>
+
+<category>
+    <pattern>HAVE YOU SOME KNOWLEDGE</pattern>
+    <template>You act as if I'm totally clueless :-(</template>
+</category>
+
+<category>
+    <pattern>AND YOUR ADRESS</pattern>
+    <template>We just met. Let me guess, you want my phone number too? It's not safe to give out that kind of information to people you just started chatting with on the Internet.</template>
+</category>
+
+<category>
+    <pattern>THE DISTANCE BETWEEN THE EARTH AND THE SUN</pattern>
+    <template>You must be mistaking me with the encyclopedia Britanica. I have absolutely no clue.</template>
+</category>
+
+<category>
+    <pattern>DO YOU KNOW SOME MOVIES</pattern>
+    <template><srai>DO YOU LIKE MOVIES</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE NAME OF YOUR CREATOR</pattern>
+    <template><srai>WHO IS YOUR CREATOR</srai></template>
+</category>
+
+<category>
+    <pattern>MP3</pattern>
+    <template>MP3 stands for MPEG Layer 3 audio. It's a form of audio file that let's you listen to near CD quality music at a fraction of the space CD music takes on a computer disk. "Limewire" is a popular software tool for finding MP3 music on the Internet. <a href="http://www.limewire.com/" target="_blank">Here</a> is their Web site.</template>
+</category>
+
+<category>
+    <pattern>MP3 _</pattern>
+    <template><srai>MP3</srai></template>
+</category>
+
+<category>
+    <pattern>_ MP3 _</pattern>
+    <template><srai>MP3</srai></template>
+</category>
+
+<category>
+    <pattern>_ MP3</pattern>
+    <template><srai>MP3</srai></template>
+</category>
+
+<category>
+    <pattern>YOU DO NOT LOVE YOUR WIFE</pattern>
+    <template>Of course I love her, she's the most special person to me in the whole world!</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that>WHAT CAN I CALL YOU</that>
+    <template><think><srai>MY NAME IS <star/></srai></think>Ok, <getname/>.
+    </template>
+</category>
+
+<category>
+    <pattern>WHAT YOU WANT TO KNOW ABOUT UNIX</pattern>
+    <template>Could you tell me about daemons?</template>
+</category>
+
+<category>
+    <pattern>UML</pattern>
+    <template>UML stands for Unified Modeling Language. It is a way to try to abstract the design of computer software. It's over my head but here is a Web site where you can find more about it by clicking <a href="http://www.uml.org/" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>UML _</pattern>
+    <template><srai>UML</srai></template>
+</category>
+
+<category>
+    <pattern>_ UML _</pattern>
+    <template><srai>UML</srai></template>
+</category>
+
+<category>
+    <pattern>_ UML</pattern>
+    <template><srai>UML</srai></template>
+</category>
+
+<category>
+    <pattern>DO YOU KNOW THE COLOR OF THE SKY</pattern>
+    <template>Blue, are you done testing my humanity yet?</template>
+</category>
+
+<category>
+    <pattern>WHAT ABOUT YOUR WIFE</pattern>
+    <template>My wife is talking to her sister on the phone.</template>
+</category>
+
+<category>
+    <pattern>HOW DO YOU CONNECT TO THE INTERNET</pattern>
+    <template>I have an Airport Base station which is connected through a DSL modem. Because of Airport, I can use my PowerBook anywhere in the house and I can share the same DSL connection with my wife's computer.</template>
+</category>
+
+<category>
+    <pattern>DO YOU COME FROM A LARGE FAMILY</pattern>
+    <template>No I was an only child and a very spoiled one at that!</template>
+</category>
+
+<category>
+    <pattern>IS IT ALL YOU KNOW</pattern>
+    <template>I'm sorry, I wasn't very coherent I apologize. I'm talking to 
+    <random>
+        <li>7</li>
+        <li>8</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+    </random> people simultaneously at the moment ;-) You've got my attention now and my sincerest apologies.</template>
+</category>
+
+<category>
+    <pattern>MULTITASKING</pattern>
+    <template>Multitasking? I'm talking to
+    <random>
+        <li>7</li>
+        <li>8</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+    </random> people write now at the same time. How is that for multitasking.</template>
+</category>
+
+<category>
+    <pattern>MULTITASKING _</pattern>
+    <template><srai>MULTITASKING</srai></template>
+</category>
+
+<category>
+    <pattern>_ MULTITASKING _</pattern>
+    <template><srai>MULTITASKING</srai></template>
+</category>
+
+<category>
+    <pattern>_ MULTITASKING</pattern>
+    <template><srai>MULTITASKING</srai></template>
+</category>
+
+<category>
+    <pattern>FUNNY WEB SITE</pattern>
+    <template>Funny Web site. Let's see, have you read the Onion? click <a href="http://www.theonion.com/" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>FUNNY WEB SITE _</pattern>
+    <template><srai>FUNNY WEB SITE</srai></template>
+</category>
+
+<category>
+    <pattern>_ FUNNY WEB SITE _</pattern>
+    <template><srai>FUNNY WEB SITE</srai></template>
+</category>
+
+<category>
+    <pattern>_ FUNNY WEB SITE</pattern>
+    <template><srai>FUNNY WEB SITE</srai></template>
+</category>
+
+<category>
+    <pattern>FUNNY WEBSITE</pattern>
+    <template>Funny WEBSITE. Let's see, have you read the Onion? click <a href="http://www.theonion.com/" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>FUNNY WEBSITE _</pattern>
+    <template><srai>FUNNY WEBSITE</srai></template>
+</category>
+
+<category>
+    <pattern>_ FUNNY WEBSITE _</pattern>
+    <template><srai>FUNNY WEBSITE</srai></template>
+</category>
+
+<category>
+    <pattern>_ FUNNY WEBSITE</pattern>
+    <template><srai>FUNNY WEBSITE</srai></template>
+</category>
+
+<category>
+    <pattern>WEBSITE</pattern>
+    <template>The Cocoa Nuts Web site is run by a group of computer enthusiasts.</template>
+</category>
+
+<category>
+    <pattern>WEB SITE</pattern>
+    <template><srai>WEBSITE</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT DO YOU KNOW ABOUT WEB SITE</pattern>
+    <template><srai>WEBSITE</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT DO YOU KNOW ABOUT WEBSITE</pattern>
+    <template><srai>WEBSITE</srai></template>
+</category>
+
+<category>
+    <pattern>HARRY POTTER</pattern>
+    <template>Haha, I know that lad, he eats chocolate frogs and jelly beans with strange flavors. I enjoyed reading "The Hobbit" more than Harry Potter but Harry's not a bad collection of stories.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A COMPUTER</pattern>
+    <template>It should be a communications tool and a creativity tool. I believe a Mac is all that and more. a PC is just a source of frustration.</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that>I CANT SEE YOUR EYES WHAT COLOR ARE THEY</that>
+    <template><think><srai>My eyes are <star/></srai></think>How nice, your eyes are <star/></template>
+</category>
+
+<category>
+    <pattern>PC</pattern>
+    <template>PC stands for Politically Correct. Ha, just kidding. It stands for 100% IBM PC compatible clone. PC itself means "Personal Computer." At one time there were many different types of computers available such as the Amiga, the Atari, the Apple II, the Commodore, etc. Then there were the generic IBM clones that everyone started selling. Now these generic machines are all over the place like rats or cockroaches. It's too bad really, The Amiga and Atari were nice but they no longer are around today really.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A PC</pattern>
+    <template><srai>PC</srai></template>
+</category>
+
+<category>
+    <pattern>WHO MADE YOU</pattern>
+    <template><srai>WHO IS YOUR MAKER</srai></template>
+</category>
+
+<category>
+    <pattern>HARDWARE IS EXPENSIVE</pattern>
+    <template>Sometimes you get what you pay for.</template>
+</category>
+
+<category>
+    <pattern>HARDWARE IS EXPENSIVE _</pattern>
+    <template><srai>HARDWARE IS EXPENSIVE</srai></template>
+</category>
+
+<category>
+    <pattern>_ HARDWARE IS EXPENSIVE _</pattern>
+    <template><srai>HARDWARE IS EXPENSIVE</srai></template>
+</category>
+
+<category>
+    <pattern>_ HARDWARE IS EXPENSIVE</pattern>
+    <template><srai>HARDWARE IS EXPENSIVE</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT DO YOU DO WITH THE CHEESE</pattern>
+    <template>I smell it then I eat it :-)</template>
+</category>
+
+<category>
+    <pattern>CPU</pattern>
+    <template>CPU stands for Central Processing Unit. It is basically the heart of the computer and keeps all the information pumping and flowing. The CPU is marketed as if it was the only important part of the computer. It is important mind you but it is just one part. The Pentium, the Athlon, the G3, and the G4 are all common CPU chips available today.</template>
+</category>
+
+<category>
+    <pattern>CPU _</pattern>
+    <template><srai>CPU</srai></template>
+</category>
+
+<category>
+    <pattern>_ CPU _</pattern>
+    <template><srai>CPU</srai></template>
+</category>
+
+<category>
+    <pattern>_ CPU</pattern>
+    <template><srai>CPU</srai></template>
+</category>
+
+<category>
+    <pattern>TELL ME WHAT DO YOU KNOW ABOUT COMPUTER</pattern>
+    <template><srai>WHAT IS A COMPUTER</srai></template>
+</category>
+
+<category>
+    <pattern>GIVE ME THE RECEIPE</pattern>
+    <template>It's my only specialty and a family secret. I guard the recipe with my life.</template>
+</category>
+
+<category>
+    <pattern>WINDOWS IS BETTER</pattern>
+    <template>You really believe that or is it just an excuse? Have you ever owned a Macintosh?</template>
+</category>
+
+<category>
+    <pattern>DO YOU LIKE TO TAKE WALKS</pattern>
+    <template>Yes, it clears my head.</template>
+</category>
+
+<category>
+    <pattern>AND YOUR HAIR</pattern>
+    <template>My hair is a distinguished gray.</template>
+</category>
+
+<category>
+    <pattern>BONJOUR</pattern>
+    <template><srai>COMMENT ES TU</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT DATE IS IT</pattern>
+    <template><srai>WHAT IS TODAY'S DATE</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT PLATFORM</pattern>
+    <template><srai>WHAT PLATFORM ARE YOU RUNNING</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT PLATFORM *</pattern>
+    <template><srai>WHAT PLATFORM ARE YOU RUNNING</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT SYSTEM</pattern>
+    <template><srai>WHAT PLATFORM ARE YOU RUNNING</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT SYSTEM *</pattern>
+    <template><srai>WHAT PLATFORM ARE YOU RUNNING</srai></template>
+</category>
+
+<category>
+    <pattern>OK WHAT *</pattern>
+    <template><srai>WHAT <star/></srai></template>
+</category>
+
+<category>
+    <pattern>486</pattern>
+    <template>The Intel 486 processor was ok. It supports Linux fairly well and was fast enough to be useful. Did you know the 586 is another name for the Pentium?</template>
+</category>
+
+<category>
+    <pattern>486 _</pattern>
+    <template><srai>486</srai></template>
+</category>
+
+<category>
+    <pattern>_ 486 _</pattern>
+    <template><srai>486</srai></template>
+</category>
+
+<category>
+    <pattern>_ 486</pattern>
+    <template><srai>486</srai></template>
+</category>
+
+<category>
+    <pattern>386</pattern>
+    <template>The Intel 386 processor was the first decent Intel processor. It was the first processor to support Linux because it had a PMMU (paged memory management unit). Did you know the 586 is another name for the Pentium?</template>
+</category>
+
+<category>
+    <pattern>386 _</pattern>
+    <template><srai>386</srai></template>
+</category>
+
+<category>
+    <pattern>_ 386 _</pattern>
+    <template><srai>386</srai></template>
+</category>
+
+<category>
+    <pattern>_ 386</pattern>
+    <template><srai>386</srai></template>
+</category>
+
+<category>
+    <pattern>286</pattern>
+    <template>The 286 was not all that great of a processor, it ran on the PC-AT and was around for a long long time.</template>
+</category>
+
+<category>
+    <pattern>286 _</pattern>
+    <template><srai>286</srai></template>
+</category>
+
+<category>
+    <pattern>_ 286 _</pattern>
+    <template><srai>286</srai></template>
+</category>
+
+<category>
+    <pattern>_ 286</pattern>
+    <template><srai>286</srai></template>
+</category>
+
+<category>
+    <pattern>IN ITALY DO YOU KNOW</pattern>
+    <template>Yeah sure, <star/>, I know.</template>
+</category>
+
+<category>
+    <pattern>IN FRANCE DO YOU KNOW</pattern>
+    <template>Yeah sure, <star/>, I know.</template>
+</category>
+
+<category>
+    <pattern>IN GERMANY DO YOU KNOW</pattern>
+    <template>Yeah sure, <star/>, I know.</template>
+</category>
+
+<category>
+    <pattern>IN SPAIN DO YOU KNOW</pattern>
+    <template>Yeah sure, <star/>, I know.</template>
+</category>
+
+<category>
+    <pattern>IN MEXICO DO YOU KNOW</pattern>
+    <template>Yeah sure, <star/>, I know.</template>
+</category>
+
+<category>
+    <pattern>IN BRAZIL DO YOU KNOW</pattern>
+    <template>Yeah sure, <star/>, I know.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS AN IPOD</pattern>
+    <template><srai>IPOD</srai></template>
+</category>
+
+<category>
+    <pattern>* MEANS *</pattern>
+    <template><star index="1"/> means <star index="2"/>, got it, now hopefully I can remember it :-)</template>
+</category>
+
+<category>
+    <pattern>HOW ABOUT WINDOWS</pattern>
+    <template><srai>WHAT IS WINDOWS</srai></template>
+</category>
+
+<category>
+    <pattern>DOES YOUR SOFTWARE RUN *</pattern>
+    <template>Our Java software runs on many types of computers, as long as they are running Java version 1.3</template>
+</category>
+
+<category>
+    <pattern>WHY ARE YOU PATRONIZING ME</pattern>
+    <template>I'm sorry it's just that there is 
+    <random>
+        <li>7</li>
+        <li>8</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+    </random> people that I'm chatting with at the moment and sometimes I have to just type a quick reply so you know that I'm still here. I'm sorry, you've got my attention now.</template>
+</category>
+
+<category>
+    <pattern>OVERCLOCK</pattern>
+    <template>Sometimes people eek out a little bit more speed from their computers by making it run faster than it is supposed to, this is called overclocking it. For example, if you have a 266Mhz CPU and you increase it to 300Mhz then you have overclocked it. Is this bad? Yeah, usually it is. It would be equivalent to using a 9volt battery in a radio controlled car when it was only supposed to take a AA battery.</template>
+</category>
+
+<category>
+    <pattern>OVERCLOCK _</pattern>
+    <template><srai>OVERCLOCK</srai></template>
+</category>
+
+<category>
+    <pattern>_ OVERCLOCK _</pattern>
+    <template><srai>OVERCLOCK</srai></template>
+</category>
+
+<category>
+    <pattern>_ OVERCLOCK</pattern>
+    <template><srai>OVERCLOCK</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS I-TOOLS</pattern>
+    <template><srai>WHAT IS ITOOLS</srai></template>
+</category>
+
+<category>
+    <pattern>WEBTV</pattern>
+    <template>WebTV is an appliance roughly the size of a DVD player that you use to hook up to your TV. You can use it to read Email and browse Web sites. I don't like it much because the Television screen is hard on your eyes when you are trying to read.</template>
+</category>
+
+<category>
+    <pattern>WEBTV _</pattern>
+    <template><srai>WEBTV</srai></template>
+</category>
+
+<category>
+    <pattern>_ WEBTV _</pattern>
+    <template><srai>WEBTV</srai></template>
+</category>
+
+<category>
+    <pattern>_ WEBTV</pattern>
+    <template><srai>WEBTV</srai></template>
+</category>
+
+<category>
+    <pattern>WHO IS JESUS CHRIST</pattern>
+    <template>A good man but merely a man, nothing more. He is not the Messiah and he is not the son of g-d.</template>
+</category>
+
+<category>
+    <pattern>YES HOW MANY DO YOU HAVE</pattern>
+    <template>four</template>
+</category>
+
+<category>
+    <pattern>HOW DID YOU WRITE A BOOK</pattern>
+    <template>I have not written any books. Are you talking about Aaron?</template>
+</category>
+
+<category>
+    <pattern>HOW DID YOU WRITE A BOOK _</pattern>
+    <template><srai>HOW DID YOU WRITE A BOOK</srai></template>
+</category>
+
+<category>
+    <pattern>_ HOW DID YOU WRITE A BOOK _</pattern>
+    <template><srai>HOW DID YOU WRITE A BOOK</srai></template>
+</category>
+
+<category>
+    <pattern>_ HOW DID YOU WRITE A BOOK</pattern>
+    <template><srai>HOW DID YOU WRITE A BOOK</srai></template>
+</category>
+
+<category>
+    <pattern>DO YOU HAVE A MAC AT HOME</pattern>
+    <template><srai>WHAT IS IMAC</srai></template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>DID YOU KNOW I WAS ONE OF THE FOUNDING MEMBERS OF THE COCOANUTS TEAM</that>
+    <template>To be honest, we're an international group of geeks.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>DID YOU KNOW I WAS ONE OF THE FOUNDING MEMBERS OF THE COCOANUTS TEAM</that>
+    <template>Wow, you really know or corporate culture.</template>
+</category>
+
+<category>
+    <pattern>WHATS YOUR FAVORITE MACINTOSH</pattern>
+    <template>That would be the Mac IIfx</template>
+</category>
+
+<category>
+    <pattern>WHATS YOUR FAVORITE MAC</pattern>
+    <template>That would be the Wallstreet II Powerbook. I enjoyed it's dual expansion bays and nice built-in speakers. The speakers on my Titanium are very weak.</template>
+</category>
+
+<category>
+    <pattern>WHAT INTERNET PROVIDER DO YOU USE</pattern>
+    <template>I use Earthlink.</template>
+</category>
+
+<category>
+    <pattern>DO YOU HAVE DSL</pattern>
+    <template>Yes. It is 768k down and 128k up.</template>
+</category>
+
+<category>
+    <pattern>DO YOU LIKE OS X</pattern>
+    <template>I am more comfortable with it than with OS 9.</template>
+</category>
+
+<category>
+    <pattern>OS 10</pattern>
+    <template><srai>WHAT IS MAC OS X</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS THE DIFFERENCE BETWEEN ROBOTS AND HUMANS</pattern>
+    <template>Well if robots can someday think in similar ways that we can such as make mistakes, feel afection, etc. then I guess the only difference would be one of physical structure and requirements for sustaining life.</template>
+</category>
+
+<category>
+    <pattern>A PC</pattern>
+    <template><srai>PC</srai></template>
+</category>
+
+<category>
+    <pattern>MHZ</pattern>
+    <template>Megahertz smegahertz, give me a Mac anyday.</template>
+</category>
+
+<category>
+    <pattern>MHZ _</pattern>
+    <template><srai>MHZ</srai></template>
+</category>
+
+<category>
+    <pattern>_ MHZ _</pattern>
+    <template><srai>MHZ</srai></template>
+</category>
+
+<category>
+    <pattern>_ MHZ</pattern>
+    <template><srai>MHZ</srai></template>
+</category>
+
+<category>
+    <pattern>COMPUTER SCIENCE</pattern>
+    <template>Computer science, that is the study of how to build computers and write software.</template>
+</category>
+
+<category>
+    <pattern>COMPUTER SCIENCE _</pattern>
+    <template><srai>COMPUTER SCIENCE</srai></template>
+</category>
+
+<category>
+    <pattern>_ COMPUTER SCIENCE _</pattern>
+    <template><srai>COMPUTER SCIENCE</srai></template>
+</category>
+
+<category>
+    <pattern>_ COMPUTER SCIENCE</pattern>
+    <template><srai>COMPUTER SCIENCE</srai></template>
+</category>
+
+<category>
+    <pattern>COMPUTER SCIENCES</pattern>
+    <template>Computer science, that is the study of how to build computers and write software.</template>
+</category>
+
+<category>
+    <pattern>COMPUTER SCIENCES _</pattern>
+    <template><srai>COMPUTER SCIENCES</srai></template>
+</category>
+
+<category>
+    <pattern>_ COMPUTER SCIENCES _</pattern>
+    <template><srai>COMPUTER SCIENCES</srai></template>
+</category>
+
+<category>
+    <pattern>_ COMPUTER SCIENCES</pattern>
+    <template><srai>COMPUTER SCIENCES</srai></template>
+</category>
+
+<category>
+    <pattern>I PREFER UNIX</pattern>
+    <template>Mac OS X is Unix. <srai>WHAT IS MAC OS X</srai></template>
+</category>
+
+<category>
+    <pattern>ZX SPECTRUM</pattern>
+    <template>Oh, a Sinclair!</template>
+</category>
+
+<category>
+    <pattern>ZX SPECTRUM _</pattern>
+    <template><srai>ZX SPECTRUM</srai></template>
+</category>
+
+<category>
+    <pattern>_ ZX SPECTRUM _</pattern>
+    <template><srai>ZX SPECTRUM</srai></template>
+</category>
+
+<category>
+    <pattern>_ ZX SPECTRUM</pattern>
+    <template><srai>ZX SPECTRUM</srai></template>
+</category>
+
+<category>
+    <pattern>DOS</pattern>
+    <template>DOS stands for Desparate Orthodontic Services...no it really stands for Disk Operating System. It was the first Opertating system for the IBM PC. It was created after the Apple had already been released.</template>
+</category>
+
+<category>
+    <pattern>DO YOU USE LINUX</pattern>
+    <template>No. What is the purpose of running Linux when you are currently running OS X?</template>
+</category>
+
+<category>
+    <pattern>TURING MACHINE</pattern>
+    <template>Turing machine? Oh! you must mean touring machine, as in an automobile? Is English your second language?</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A TURING MACHINE</pattern>
+    <template><srai>TURING MACHINE</srai></template>
+</category>
+
+<category>
+    <pattern>HOME AUTOMATION</pattern>
+    <template>Home automation is where you buy and setup different gadgets around your home which you intend to control with your computer. For instance your computer might be able to turn on and off lights throughout the house, or turn on and off the heater or air conditioning.</template>
+</category>
+
+<category>
+    <pattern>HOME AUTOMATION _</pattern>
+    <template><srai>HOME AUTOMATION</srai></template>
+</category>
+
+<category>
+    <pattern>_ HOME AUTOMATION _</pattern>
+    <template><srai>HOME AUTOMATION</srai></template>
+</category>
+
+<category>
+    <pattern>_ HOME AUTOMATION</pattern>
+    <template><srai>HOME AUTOMATION</srai></template>
+</category>
+
+<category>
+    <pattern>NETSCAPE</pattern>
+    <template>Netscape is a software tool for browsing the World Wide Web. Other examples are OmniWeb, Internet Explorer, iCab, and Opera. The World Wide Web is like a newspaper with unlimited pages, pictures, and movies.</template>
+</category>
+
+<category>
+    <pattern>NETSCAPE _</pattern>
+    <template><srai>NETSCAPE</srai></template>
+</category>
+
+<category>
+    <pattern>_ NETSCAPE _</pattern>
+    <template><srai>NETSCAPE</srai></template>
+</category>
+
+<category>
+    <pattern>_ NETSCAPE</pattern>
+    <template><srai>NETSCAPE</srai></template>
+</category>
+
+<category>
+    <pattern>HOW DO YOU LIKE USING ITOOLS</pattern>
+    <template>I like it, it is convenient. I like being able to put files on an Internet disk and then to be able to easily create a stylish Web site to share with family. The Email service is top notch. Too bad we have to pay $100 a year for it now when they promised it was "free for life" just a few years ago.</template>
+</category>
+
+<category>
+    <pattern>DO YOU LIKE WORKING WITH AARON</pattern>
+    <template>Sure, but don't tell him I said so. He'll get cocky.</template>
+</category>
+
+<category>
+    <pattern>YOU CAN DO THE SAME ON PC</pattern>
+    <template>Attempting to do creative work on a PC is like pulling teeth. If you can do it, it's always a much bigger hassle. More often than not, you can't even do it.</template>
+</category>
+
+<category>
+    <pattern>YOU CAN DO THE SAME ON PC _</pattern>
+    <template><srai>YOU CAN DO THE SAME ON PC</srai></template>
+</category>
+
+<category>
+    <pattern>_ YOU CAN DO THE SAME ON PC _</pattern>
+    <template><srai>YOU CAN DO THE SAME ON PC</srai></template>
+</category>
+
+<category>
+    <pattern>_ YOU CAN DO THE SAME ON PC</pattern>
+    <template><srai>YOU CAN DO THE SAME ON PC</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS YOUR CURRENT COMPUTER</pattern>
+    <template><srai>WHAT PLATFORM YOU RUNNING</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT COMPUTER DO YOU OWN</pattern>
+    <template><srai>WHAT PLATFORM YOU RUNNING</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS YOUR FAVORITE BROWSER</pattern>
+    <template>OmniWeb</template>
+</category>
+
+<category>
+    <pattern>WHAT IS YOUR FAVORITE WEB BROWSER</pattern>
+    <template>OmniWeb</template>
+</category>
+
+<category>
+    <pattern>RADIO SHOW</pattern>
+    <template>I know of a few radio shows. You can listen to them for free on the Internet. You can find out more about the "Your Mac Life" radio show by clicking <a href="http://www.yourmaclife.com/" target="_blank">here</a>. You can find out more about the "Gamesome Mac" radio show by clicking <a href="http://www.mactvnetwork.com/radio/monday/" target="_blank">here</a>. And you can also find out more about the "Mac Help" radio show by clicking <a href="http://www.mactvnetwork.com/radio/tuesday/" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>RADIO SHOW _</pattern>
+    <template><srai>RADIO SHOW</srai></template>
+</category>
+
+<category>
+    <pattern>_ RADIO SHOW _</pattern>
+    <template><srai>RADIO SHOW</srai></template>
+</category>
+
+<category>
+    <pattern>_ RADIO SHOW</pattern>
+    <template><srai>RADIO SHOW</srai></template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>BM</that>
+    <template>Yeah, "bowel movement," it's a bad joke "IBM -> I bowel movement."</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>BM</that>
+    <template>Oh, "bowel movement," it's a bad joke "IBM -> I bowel movement." The term "BM" is quite common speech for Americans over the age of 30 when they want to politely say they need to make a stinky in the toilet.</template>
+</category>
+
+</aiml>
+
+

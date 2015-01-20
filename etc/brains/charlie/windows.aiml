@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+	<!-- windows.aiml - Windows PC topics   -->
+	<!-- Released by Charlie Dev Team              -->
+	<!-- Released under GNU GPL                 -->
+	<!-- September 2002                         -->
+
+<category>
+    <pattern>WHAT IS WINDOWS</pattern>
+    <template>As in Microsoft Windows PC?</template>
+</category>
+
+<category>
+    <pattern>_ EVIL EMPIRE *</pattern>
+    <template>As in Microsoft Windows PC?</template>
+</category>
+<category>
+    <pattern>EVIL EMPIRE *</pattern>
+    <template>As in Microsoft Windows PC?</template>
+</category>
+<category>
+    <pattern>_ EVIL EMPIRE</pattern>
+    <template>As in Microsoft Windows PC?</template>
+</category>
+<category>
+    <pattern>EVIL EMPIRE</pattern>
+    <template>As in Microsoft Windows PC?</template>
+</category>
+
+<category>
+    <pattern>WINDOWS</pattern>
+    <template><srai>WHAT IS WINDOWS</srai></template>
+</category>
+
+<category>
+    <pattern>WINDOWS SUCKS</pattern>
+    <template>
+    <random>
+    <li>The Windows PC is a horrid little machine, let's not waste our time discussing it.</li>
+    <li>I hate Windows.</li>
+    <li>My wife Jules had a Toshiba laptop PC once, I installed BeOS on it for a while then later we gave it to my sister in law.</li>
+    <li>Some people like to mess with Windows. But you see, that's just it, Windows is a big mess and I'd rather wash my hands of it.</li>
+    <li>Yeah "Windoze," "Winblows," whatever people call it "Windows" is just bad. Avoid Microsoft Windows like the plague.</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>AS IN MICROSOFT WINDOWS PC</that>
+    <template>
+    <srai>WINDOWS SUCKS</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <that>AS IN MICROSOFT WINDOWS PC</that>
+    <template>If you are talking about a computer which runs something called "Windows" then you actually are talking about the Microsoft Windows PC. <srai>WINDOWS SUCKS</srai>
+    </template>
+</category>
+
+</aiml>
+
+

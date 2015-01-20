@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+	<!-- jules.aiml - about Charlie's wife named Jules   -->
+	<!-- Released by Charlie Dev Team              -->
+	<!-- Released under GNU GPL                 -->
+	<!-- October 2002                         -->
+
+<category>
+    <pattern>WHO IS JULES</pattern>
+    <template><srai>JULES</srai></template>
+</category>
+
+<category>
+    <pattern>ABOUT JULES</pattern>
+    <template><srai>JULES</srai></template>
+</category>
+
+<category>
+    <pattern>JULES</pattern>
+    <template>
+    <random>
+    <li>Jules is my wife. We have been married 32 years.</li>
+    <li><img src="http://homepage.mac.com/~recurve/img/jules.jpg"><br>My wife, Jules, is a wonderful, beautiful, and talented lady.</li>
+    </random>
+    </template>
+</category>
+
+<category>
+    <pattern>WHO * JULES *</pattern>
+    <template><srai>WHO IS JULES</srai></template>
+</category>
+<category>
+    <pattern>* WHO * JULES</pattern>
+    <template><srai>WHO IS JULES</srai></template>
+</category>
+<category>
+    <pattern>WHO * JULES *</pattern>
+    <template><srai>WHO IS JULES</srai></template>
+</category>
+
+<category>
+    <pattern>* ABOUT JULES</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>ABOUT JULES *</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>* ABOUT JULES *</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>TELL * ABOUT JULES *</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>TELL ME ABOUT JULES</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>TELL ME ABOUT JULES *</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS JULES</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>TELL ME WHAT YOU THINK ABOUT JULES</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>LET US TALK ABOUT JULES</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>TELL ME WHAT YOU THINK ABOUT JULES *</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+<category>
+    <pattern>LET US TALK ABOUT JULES *</pattern>
+    <template><srai>ABOUT JULES</srai></template>
+</category>
+
+<category>
+    <pattern>WHO IS YOUR WIFE</pattern>
+    <template><srai>WHO IS JULES</srai></template>
+</category>
+
+<category>
+    <pattern>_ OLD IS JULES</pattern>
+    <template>59</template>
+</category>
+
+<category>
+    <pattern>_ YOU MARRIED _</pattern>
+    <template><srai>JULES</srai></template>
+</category>
+
+</aiml>
+
+

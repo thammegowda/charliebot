@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+	<!-- unix.aiml - unix related topics   -->
+	<!-- Released by Charlie Dev Team              -->
+	<!-- Released under GNU GPL                 -->
+	<!-- October 2002                         -->
+
+<category>
+    <pattern>WHAT * FINK *</pattern>
+    <template><srai>FINK</srai></template>
+</category>
+<category>
+    <pattern>WHAT * FINK</pattern>
+    <template><srai>FINK</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT IS UNIX</pattern>
+    <template><srai>DARWIN</srai></template>
+</category>
+
+<category>
+    <pattern>WHAT * DARWIN *</pattern>
+    <template><srai>DARWIN</srai></template>
+</category>
+<category>
+    <pattern>WHAT * DARWIN</pattern>
+    <template><srai>DARWIN</srai></template>
+</category>
+
+<category>
+    <pattern>HOW * DARWIN *</pattern>
+    <template><srai>USE DARWIN</srai></template>
+</category>
+<category>
+    <pattern>HOW * DARWIN</pattern>
+    <template><srai>USE DARWIN</srai></template>
+</category>
+<category>
+    <pattern>HOW DO I * DARWIN</pattern>
+    <template><srai>USE DARWIN</srai></template>
+</category>
+<category>
+    <pattern>HOW DO I * DARWIN *</pattern>
+    <template><srai>USE DARWIN</srai></template>
+</category>
+
+<category>
+    <pattern>HOW * UNIX *</pattern>
+    <template><srai>USE UNIX</srai></template>
+</category>
+<category>
+    <pattern>HOW * UNIX</pattern>
+    <template><srai>USE UNIX</srai></template>
+</category>
+<category>
+    <pattern>HOW DO I * UNIX</pattern>
+    <template><srai>USE UNIX</srai></template>
+</category>
+<category>
+    <pattern>HOW DO I * UNIX *</pattern>
+    <template><srai>USE UNIX</srai></template>
+</category>
+
+<category>
+    <pattern>TELL ME MORE ABOUT DARWIN</pattern>
+    <template><srai>USE DARWIN</srai><template>
+</category>
+
+<category>
+    <pattern>UNIX</pattern>
+    <template>Unix is a type of operating system. Popular examples of Unix are: Mac OS X, Linux, Solaris, Ultrix, FreeBSD, and NetBSD. Are you interested in "DARWIN?"</template>
+</category>
+
+<category>
+    <pattern>DARWIN</pattern>
+    <template>Mac OS X is conceptually devided into two parts. The first part is the special Apple interface which is very much like the classic Macintosh. The second part is the Unix underpinnings and the most fundamental aspect of the operating system, this is called "Darwin." The Darwin part is completely free and open to inspection by any software engineer and can be updated by the general public, not just Apple employees. <srai>USE DARWIN</srai></template>
+</category>
+
+<category>
+    <pattern>USE DARWIN</pattern>
+    <template>If you are new to Unix you should first go through a general tutorial by clicking <a href="http://www.ee.surrey.ac.uk/Teaching/Unix/" target="_blank">here</a>. When you are ready to start installing free Unix software on your Mac then visit the FINK project by clicking <a href="http://fink.sourceforge.net" target="_blank">here</a>.</template>
+</category>
+
+<category>
+    <pattern>USE UNIX</pattern>
+    <template><srai>USE DARWIN</srai></template>
+</category>
+
+<category>
+    <pattern>* LEARN DARWIN *</pattern>
+    <template><srai>USE DARWIN</srai></template>
+</category>
+<category>
+    <pattern>* LEARN DARWIN</pattern>
+    <template><srai>USE DARWIN</srai></template>
+</category>
+
+<category>
+    <pattern>FINK</pattern>
+    <template>FINK is a software tool which helps you install Unix software on Mac OS X. Unix software is free, and usually pretty good quality, but installation is not easy. If you spend some time to learn FINK it will make it much easier to install free unix software.</template>
+</category>
+
+</aiml>
+
+
