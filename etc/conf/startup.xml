@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--This is an example startup.xml file for Program D.-->
+<!--programd-startup is the root element and is required.-->
+<programd-startup>
+    <bots>
+        <bot id="Alice" enabled="true">
+            <!--Bot predicates are set using the property tag. These are just examples.
+                Be sure to set properties BEFORE loading AIML files.-->
+            <properties>
+                <property name="name" value="Alice"/>
+                <!--  <property name="maxclients" value="3"/> -->
+            </properties>
+            <!--Listener types must correspond to the appropriate
+                identifiers for listeners that are available in your classpath.-->
+            <listeners>
+            </listeners>
+            <!--You can include such things as predicates, substitutions, and
+                sentence-splitters directly here, but it is likely that multiple
+                bots will use the same ones, so it's more convenient to use the
+                href attribute on such elements, as shown.-->
+            <predicates href="predicates.xml"/>
+            <substitutions href="substitutions.xml"/>
+            <sentence-splitters href="sentence-splitters.xml"/>
+            <!--You may enumerate each file you want the bot to load, or use
+                simple glob-like expressions with "*".
+                The path is relative to the location of this file.-->
+            <learn>../brains/alice/*.aiml</learn>
+        </bot>
+
+
+        <bot id="Anna" enabled="true">
+            <!--Bot predicates are set using the property tag. These are just examples.
+                Be sure to set properties BEFORE loading AIML files.-->
+            <properties>
+                <property name="name" value="Anna"/>
+                <!--  <property name="maxclients" value="3"/> -->
+            </properties>
+            <!--Listener types must correspond to the appropriate
+                identifiers for listeners that are available in your classpath.-->
+            <listeners>
+            </listeners>
+            <!--You can include such things as predicates, substitutions, and
+                sentence-splitters directly here, but it is likely that multiple
+                bots will use the same ones, so it's more convenient to use the
+                href attribute on such elements, as shown.-->
+            <predicates href="predicates.xml"/>
+            <substitutions href="substitutions.xml"/>
+            <sentence-splitters href="sentence-splitters.xml"/>
+            <!--You may enumerate each file you want the bot to load, or use
+                simple glob-like expressions with "*".
+                The path is relative to the location of this file.-->
+            <learn>../brains/anna/*.aiml</learn>
+        </bot>
+
+
+        <bot id="Charlie" enabled="true">
+            <!--Bot predicates are set using the property tag. These are just examples.
+                Be sure to set properties BEFORE loading AIML files.-->
+            <properties>
+                <property name="name" value="Charlie"/>
+                <!--  <property name="maxclients" value="3"/> -->
+            </properties>
+            <!--Listener types must correspond to the appropriate
+                identifiers for listeners that are available in your classpath.-->
+            <listeners>
+            </listeners>
+            <!--You can include such things as predicates, substitutions, and
+                sentence-splitters directly here, but it is likely that multiple
+                bots will use the same ones, so it's more convenient to use the
+                href attribute on such elements, as shown.-->
+            <predicates href="predicates.xml"/>
+            <substitutions href="substitutions.xml"/>
+            <sentence-splitters href="sentence-splitters.xml"/>
+            <!--You may enumerate each file you want the bot to load, or use
+                simple glob-like expressions with "*".
+                The path is relative to the location of this file.-->
+            <learn>../brains/charlie/*.aiml</learn>
+        </bot>
+    </bots>
+</programd-startup>

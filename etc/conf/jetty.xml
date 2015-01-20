@@ -1,0 +1,54 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure 1.0//EN"
+        "http://jetty.mortbay.org/configure_1_1.dtd">
+<Configure class="org.mortbay.jetty.Server">
+    <Call name="addListener">
+        <Arg>
+            <New class="org.mortbay.http.SocketListener">
+                <Set name="Port">2001</Set>
+                <Set name="MinThreads">5</Set>
+                <Set name="MaxThreads">255</Set>
+                <Set name="MaxIdleTimeMs">60000</Set>
+                <Set name="MaxReadTimeMs">60000</Set>
+                <Set name="LowResourcePersistTimeMs">5000</Set>
+            </New>
+        </Arg>
+    </Call>
+    <Call name="addContext">
+        <Arg>/</Arg>
+        <Call name="addServlet">
+            <Arg>Alice</Arg>
+            <Arg>/</Arg>
+            <Arg>org.alicebot.server.net.servlet.Alice</Arg>
+        </Call>
+    </Call>
+    <!--Old method, calling CHAT-->
+    <Call name="addContext">
+        <Arg>/</Arg>
+        <Call name="addServlet">
+            <Arg>Alice</Arg>
+            <Arg>/CHAT</Arg>
+            <Arg>org.alicebot.server.net.servlet.Alice</Arg>
+        </Call>
+    </Call>
+    <!--Request Log-->
+    <Set name="RequestLogSink">
+        <New class="org.mortbay.util.OutputStreamLogSink">
+
+            <Arg>logs/yyyy_mm_dd.request.log</Arg>
+            <Set name="RetainDays">90</Set>
+            <Set name="Append">true</Set>
+            <Set name="flushOn">false</Set>
+            <Set name="logDateFormat">dd/MMM/yyyy:HH:mm:ss ZZZ</Set>
+        </New>
+    </Set>
+</Configure>
+
+
+
+
+
+
+
+
+
