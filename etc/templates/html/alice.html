@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--This is a simple example of an HTML chat template for Program D.-->
+    <head>
+        <!--The value associated with a bot predicate, such as
+            "name", is inserted wherever you use a bot element
+            with a name attribute that corresponds to a predicate name.-->
+        <title>
+            Dialogue with <bot name="name"/>
+        </title>
+        <!--This is a simple stylesheet to format the page.-->
+        <style type="text/css">
+            p
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 11px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                margin-left: 0px;
+                margin-right: 10px;
+                text-align: left;
+                background: transparent;
+            }
+            .fieldlabel
+            {
+                font-weight: bold;
+                font-style: normal;
+                font-size: 14px;
+                color: #0000aa;
+            }
+            #userinput
+            {
+                font-weight: bold;
+                font-style: italic;
+                font-size: 14px;
+                color: #aa0000;
+            }
+            .botresponse
+            {
+                font-weight: bold;
+                font-style: italic;
+                font-size: 14px;
+                color: #00aa00;
+            }
+            .bottomtext
+            {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-weight: normal;
+                font-style: italic;
+                font-size: 10px;
+            }
+            li p
+            {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: 20px;
+                margin-right: 0px;
+            }
+            ul
+            {
+                margin-top: 0px;
+                margin-bottom: 5px;
+                margin-left: 10px;
+                margin-right: 0px;
+            }
+            form
+            {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        </style>
+    </head>
+    <!--The body element is set to automatically give focus to the
+        input field each time the document is loaded.-->
+    <body onload="document.forms[0].elements[0].focus();">
+        <table border="0" cellspacing="5" cellpadding="0" width="500">
+            <tr>
+                <td width="30%" valign="top">
+                    <p class="fieldlabel">
+                        You said:
+                    </p>
+                </td>
+                <td width="70%" valign="top">
+                    <p id="userinput">
+                        <userinput/>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%" valign="top">
+                    <p class="fieldlabel">
+                        <!--The name of the bot will be substituted here.-->
+                        <bot name="name"/> said:
+                    </p>
+                </td>
+                <td width="70%" valign="top">
+                    <p class="botresponse">
+                        <!--The bot's response will be substituted here.-->
+                        <reply></reply><response/>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" colspan="2" valign="top">
+                    <form method="post">
+                        <input type="text" size="50" name="text" />
+                        <input type="submit" value="Say" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" colspan="2" valign="top">
+                    <p class="bottomtext">
+                        <!--Again we display the bot name, and also the hostname.-->
+                        You are speaking with <bot name="name"/> from <hostname/>.
+                    </p>
+                    <p class="bottomtext">
+                        <!--Here is an example of getting another bot predicate value (master).-->
+                        <bot name="name"/>'s botmaster is <bot name="master"/>.
+                    </p>
+                    <p>
+                        You can:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                <!--This link will request a login form.-->
+                                <a href="?login=yes">log in</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <!--This link will request a new user registration form.-->
+                                <a href="?register=yes">register a new username and password</a>.
+                            </p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
