@@ -1,6 +1,5 @@
-# charliebot
-The ALICE/ALICEBOT/CHARLIE/CHARLIEBOT 
-
+# CharlieBot
+CharlieBot is an artificial intelligence program written in the Java language. It is based on work from the ALICE, ANNA v7.0, and Program D v4.1.5 projects.
 The source has been retrieved from http://sourceforge.net/projects/charliebot/ under GPLv2 licence
 
 #### This project has same code as its origin, except these :
