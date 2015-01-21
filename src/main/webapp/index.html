@@ -70,7 +70,7 @@
     }
     function addChat(message, sent) {
      console.log('message :' + message + ', sent :' + sent)
-     $('#chatThread').append(
+     $('#chatThread').prepend(
         $('<li>')
             .addClass(sent ? 'right' : 'left')
             .addClass('clearfix')
@@ -88,6 +88,9 @@
                             $('<strong>').addClass('primary-font').text(sent ? 'You' : 'Alice')))
                     .append(
                             $('<p>').text( message))))
+
+    //need to scroll to the last one
+    $('body').scrollTop($('ul li').last().position().top + $('ul li').last().height());
     }
 
 </script>
@@ -100,12 +103,7 @@
                     <div class="panel-heading">
                         <span class="glyphicon glyphicon-comment"></span> ALICE
                     </div>
-                    <div class="panel-body">
-                        <ul id='chatThread' class="chat">
-                            <!-- Chats will come here-->
-                        </ul>
-                    </div>
-                    <div class="panel-footer">
+                    <div class="panel-input">
                         <div class="input-group">
                             <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
                         <span class="input-group-btn">
@@ -113,6 +111,12 @@
                         </span>
                         </div>
                     </div>
+                    <div class="panel-body">
+                        <ul id='chatThread' class="chat">
+                            <!-- Chats will come here-->
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
