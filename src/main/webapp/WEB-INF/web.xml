@@ -7,19 +7,20 @@
         version="3.1">
 
     <listener>
-        <listener-class>org.alicebot.server.net.servlet.StartupListener</listener-class>
+        <listener-class>org.alicebot.server.net.servlet.StartupListener
+        </listener-class>
     </listener>
 
     <servlet>
         <servlet-name>charlie</servlet-name>
         <servlet-class>org.alicebot.server.net.servlet.Alice</servlet-class>
-        <!--<listener-class>org.alicebot.server.net.servlet.StartupListener</listener-class>-->
+
         <load-on-startup>1</load-on-startup>
 
     </servlet>
     <servlet-mapping>
         <servlet-name>charlie</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/api/*</url-pattern>
     </servlet-mapping>
 
 </web-app>
