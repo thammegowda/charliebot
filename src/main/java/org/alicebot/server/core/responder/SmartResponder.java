@@ -9,12 +9,15 @@ import org.alicebot.server.core.Globals;
 import org.alicebot.server.core.Multiplexor;
 import org.alicebot.server.core.util.DeveloperError;
 import org.alicebot.server.core.util.UserError;
+import org.json.JSONObject;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
+import java.util.Enumeration;
 
 // Referenced classes of package org.alicebot.server.core.responder:
 //            TextResponder, HTMLResponder, FlashResponder, Responder
@@ -66,13 +69,16 @@ public class SmartResponder {
             } catch (UnsupportedEncodingException unsupportedencodingexception) {
                 throw new DeveloperError("Encodings are not properly supported!");
             }
-        if (userid == null)
+        if (userid == null) {
             userid = httpservletrequest.getRemoteHost();
-        if (botid == null)
+        }
+        if (botid == null) {
             botid = Bots.getFirstBot().getID();
+        }
         templateName = httpservletrequest.getParameter("template");
-        if (templateName == null)
+        if (templateName == null) {
             templateName = "";
+        }
     }
 
     public void doResponse() {
@@ -104,7 +110,11 @@ public class SmartResponder {
                 serviceResponse.setContentType("text/plain");
                 botResponse = Multiplexor.getResponse(userRequest, userid, botid, new FlashResponder(botid, templateName));
                 break;
-
+            case 4 : //JSON
+                serviceResponse.setContentType("application/json");
+                String text = Multiplexor.getResponse(userRequest, userid, botid, new TextResponder());
+                botResponse = new JSONObject().put("reply", text).toString();
+                break;
             default:
                 serviceResponse.setContentType("text/plain");
                 botResponse = Multiplexor.getResponse(userRequest, userid, botid, new TextResponder());
@@ -130,13 +140,30 @@ public class SmartResponder {
     }
 
     public int getServiceType() {
+        Enumeration<String> headerNames = serviceRequest.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            String headerName = headerNames.nextElement();
+            if("Accept".equals(headerName.trim())) {
+                Enumeration<String> accepts = serviceRequest.getHeaders(headerName);
+                while(accepts.hasMoreElements()){
+                    String accept = accepts.nextElement();
+                    if(accept.startsWith("text/plain")){
+                        return 1;
+                    } else if(accept.startsWith("application/json")) {
+                        return 4;
+                    } else if(accept.startsWith("text/html")
+                            || accept.startsWith("text/xml")
+                            || accept.startsWith("text/xhtml")){
+                        return 2;
+                    }
+                }
+            }
+        }
+
         if (serviceRequest.getParameter("plain_text") != null)
             return 1;
         if (serviceRequest.getParameter("flash") != null)
             return 3;
-        for (int i = HTML_USER_AGENT_COUNT; --i >= 0; )
-            if (serviceRequest.getHeader("USER-AGENT").indexOf(HTML_USER_AGENTS[i]) != -1)
-                return 2;
 
         return 0;
     }
