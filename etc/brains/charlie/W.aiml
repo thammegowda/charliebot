@@ -20431,4 +20431,19 @@ there to hear it, does it make a sound?</li>
 			</srai>
 		</template>
 	</category>
+	<category>
+    		<pattern>WHO IS YOUR BOT MASTER</pattern>
+    		<template><srai>BOT MASTER</srai></template>
+    </category>
+    <category>
+        		<pattern>WHO IS YOUR BOTMASTER</pattern>
+        		<template><srai>BOT MASTER</srai></template>
+        </category>
+    <category>
+        		<pattern>BOT MASTER</pattern>
+        		<template>My original bot master abandoned me :-(.
+        		(But currently a copy of me managed by @thammegowda).
+        		If you are interested, my brain is available on github at https://github.com/thammegowda/charliebot</template>
+    </category>
+
 </aiml>

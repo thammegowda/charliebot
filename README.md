@@ -16,5 +16,15 @@ The source has been retrieved from http://sourceforge.net/projects/charliebot/ u
  + `mvn jetty:run` launches jetty on port 8080
  + `mvn package` gives you `.war`
  + `mvn exec:java -Dexec.mainClass=org.alicebot.gui.SimpleConsole` gives you GUI with JPanels and Frames
- 
-` 
+
+NOTE:
+ web interface has limited functionality.
+ Use `mvn exec:java -Dexec.mainClass=org.alicebot.gui.SimpleConsole` to
+ access full features.
+
+
+## AIML
+To learn more about AIML :
+https://www.pandorabots.com/pandora/pics/wallaceaimltutorial.html
+
+

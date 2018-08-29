@@ -57085,4 +57085,9 @@ Ich glaube, Du bist eigentlich ein Kind.
 			</srai>
 		</template>
 	</category>
+  <category>
+    <pattern>WHERE IS YOUR BRAIN</pattern>
+    <template>Thanks for your interest. Check out https://github.com/thammegowda/charliebot/tree/master/etc/brains </template>
+  </category>
+
 </aiml>
